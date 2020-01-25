@@ -8,9 +8,7 @@ import * as modules from './modules'
 
 Vue.use(Vuex)
 
-export function createStore () {
-  return new Vuex.Store({
-    modules,
-    plugins: [pathify.plugin],
-  })
-}
+export default new Vuex.Store({
+  modules,
+  plugins: [pathify.plugin],
+})

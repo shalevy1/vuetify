@@ -48,7 +48,7 @@ export function parseLink (match, text, link) {
     link.indexOf('http') > -1 ||
     link.indexOf('mailto') > -1
   ) {
-    attrs = `target="_blank" rel="noopener"`
+    attrs = 'target="_blank" rel="noopener"'
     icon = 'open-in-new'
     linkClass += ' v-markdown--external'
   // Same page internal link

@@ -6,7 +6,7 @@
 
 <script>
   // Mixins
-  import Meta from '@/mixins/meta'
+  // import Meta from '@/mixins/meta'
 
   // Utilities
   import { waitForReadystate } from '@/util/helpers'
@@ -19,7 +19,7 @@
   export default {
     name: 'App',
 
-    mixins: [Meta],
+    // mixins: [Meta],
 
     data: () => ({
       availableLocales: languages.map(lang => lang.alternate || lang.locale),

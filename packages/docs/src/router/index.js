@@ -33,26 +33,24 @@ const routes = root([
   redirectLang(),
 ])
 
-export function createRouter () {
-  const router = new Router({
-    base: __dirname,
-    mode: 'history',
-    routes,
-    scrollBehavior,
-  })
+const router = new Router({
+  base: __dirname,
+  mode: 'history',
+  routes,
+  scrollBehavior,
+})
 
-  Vue.use(VueAnalytics, {
-    autoTracking: {
-      page: process.env.NODE_ENV !== 'development',
-    },
-    debug: process.env.DEBUG ? {
-      enabled: true,
-      trace: false,
-      sendHitTask: true,
-    } : false,
-    id: 'UA-75262397-3',
-    router,
-  })
+Vue.use(VueAnalytics, {
+  autoTracking: {
+    page: process.env.NODE_ENV !== 'development',
+  },
+  debug: process.env.DEBUG ? {
+    enabled: true,
+    trace: false,
+    sendHitTask: true,
+  } : false,
+  id: 'UA-75262397-3',
+  router,
+})
 
-  return router
-}
+export default router
