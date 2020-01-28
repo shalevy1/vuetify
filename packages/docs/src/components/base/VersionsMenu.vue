@@ -15,7 +15,9 @@
         v-bind="attrs"
         v-on="on"
       >
-        <v-icon left>mdi-tag-outline</v-icon>
+        <v-icon left>
+          mdi-tag-outline
+        </v-icon>
 
         <span v-text="version" />
 
