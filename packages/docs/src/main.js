@@ -7,7 +7,7 @@ import Vue from 'vue'
 
 // Bootstrap
 // need to figure out why this loads with errors
-// import '@/components'
+import '@/components'
 import i18n from '@/i18n/index'
 import router from './router'
 import store from './store'
