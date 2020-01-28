@@ -17,7 +17,9 @@
       text-color="white"
     >
       Premium
-      <v-icon right>mdi-star</v-icon>
+      <v-icon right>
+        mdi-star
+      </v-icon>
     </v-chip>
 
     <v-chip
@@ -26,7 +28,9 @@
       text-color="white"
     >
       1 Year
-      <v-icon right>mdi-cake-variant</v-icon>
+      <v-icon right>
+        mdi-cake-variant
+      </v-icon>
     </v-chip>
 
     <v-chip

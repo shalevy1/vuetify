@@ -23,13 +23,20 @@
     </v-card-text>
 
     <v-card-text>
-      <div class="display-1 font-weight-thin">Sales Last 24h</div>
+      <div class="display-1 font-weight-thin">
+        Sales Last 24h
+      </div>
     </v-card-text>
 
     <v-divider></v-divider>
 
     <v-card-actions class="justify-center">
-      <v-btn block text>Go to Report</v-btn>
+      <v-btn
+        block
+        text
+      >
+        Go to Report
+      </v-btn>
     </v-card-actions>
   </v-card>
 </template>

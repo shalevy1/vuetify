@@ -1,5 +1,4 @@
 <template>
-
   <v-container fluid>
     <v-row>
       <v-col
@@ -76,7 +75,6 @@
             <v-icon>mdi-format-align-center</v-icon>
           </v-btn>
           <v-btn>
-
             <v-icon>mdi-format-align-right</v-icon>
           </v-btn>
 
@@ -161,25 +159,33 @@
           <v-btn value="left">
             <span class="hidden-sm-and-down">Left</span>
 
-            <v-icon right>mdi-format-align-left</v-icon>
+            <v-icon right>
+              mdi-format-align-left
+            </v-icon>
           </v-btn>
 
           <v-btn value="center">
             <span class="hidden-sm-and-down">Center</span>
 
-            <v-icon right>mdi-format-align-center</v-icon>
+            <v-icon right>
+              mdi-format-align-center
+            </v-icon>
           </v-btn>
 
           <v-btn value="right">
             <span class="hidden-sm-and-down">Right</span>
 
-            <v-icon right>mdi-format-align-right</v-icon>
+            <v-icon right>
+              mdi-format-align-right
+            </v-icon>
           </v-btn>
 
           <v-btn value="justify">
             <span class="hidden-sm-and-down">Justify</span>
 
-            <v-icon right>mdi-format-align-justify</v-icon>
+            <v-icon right>
+              mdi-format-align-justify
+            </v-icon>
           </v-btn>
         </v-btn-toggle>
       </v-col>

@@ -1,6 +1,12 @@
 <template>
-  <v-row align="center" justify="center">
-    <v-card height="300" width="250">
+  <v-row
+    align="center"
+    justify="center"
+  >
+    <v-card
+      height="300"
+      width="250"
+    >
       <v-row justify="center">
         <v-btn
           color="orange lighten-2"

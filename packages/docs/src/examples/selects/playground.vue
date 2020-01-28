@@ -1,16 +1,63 @@
 <template>
-  <v-row align="center" justify="space-around">
-    <v-switch v-model="disabled" class="ma-2" label="Disabled"></v-switch>
-    <v-switch v-model="readonly" class="ma-2" label="Readonly"></v-switch>
-    <v-switch v-model="chips" class="ma-2" label="Chips"></v-switch>
-    <v-switch v-model="multiple" class="ma-2" label="Multiple"></v-switch>
-    <v-switch v-model="appendIcon" class="ma-2" label="Append icon"></v-switch>
-    <v-switch v-model="appendSlot" class="ma-2" label="Append slot"></v-switch>
-    <v-switch v-model="appendItemSlot" class="ma-2" label="Append item slot"></v-switch>
-    <v-switch v-model="prependIcon" class="ma-2" label="Prepend icon"></v-switch>
-    <v-switch v-model="prependSlot" class="ma-2" label="Prepend slot"></v-switch>
-    <v-switch v-model="prependItemSlot" class="ma-2" label="Prepend item slot"></v-switch>
-    <v-switch v-model="selectSlot" class="ma-2" label="Selection slot"></v-switch>
+  <v-row
+    align="center"
+    justify="space-around"
+  >
+    <v-switch
+      v-model="disabled"
+      class="ma-2"
+      label="Disabled"
+    ></v-switch>
+    <v-switch
+      v-model="readonly"
+      class="ma-2"
+      label="Readonly"
+    ></v-switch>
+    <v-switch
+      v-model="chips"
+      class="ma-2"
+      label="Chips"
+    ></v-switch>
+    <v-switch
+      v-model="multiple"
+      class="ma-2"
+      label="Multiple"
+    ></v-switch>
+    <v-switch
+      v-model="appendIcon"
+      class="ma-2"
+      label="Append icon"
+    ></v-switch>
+    <v-switch
+      v-model="appendSlot"
+      class="ma-2"
+      label="Append slot"
+    ></v-switch>
+    <v-switch
+      v-model="appendItemSlot"
+      class="ma-2"
+      label="Append item slot"
+    ></v-switch>
+    <v-switch
+      v-model="prependIcon"
+      class="ma-2"
+      label="Prepend icon"
+    ></v-switch>
+    <v-switch
+      v-model="prependSlot"
+      class="ma-2"
+      label="Prepend slot"
+    ></v-switch>
+    <v-switch
+      v-model="prependItemSlot"
+      class="ma-2"
+      label="Prepend item slot"
+    ></v-switch>
+    <v-switch
+      v-model="selectSlot"
+      class="ma-2"
+      label="Selection slot"
+    ></v-switch>
     <v-col cols="12">
       <v-select
         v-model="model"
@@ -23,11 +70,36 @@
         :prepend-icon="prependIcon ? 'mdi-minus' : ''"
         label="Label"
       >
-        <v-icon v-if="appendSlot" slot="append" color="green">mdi-plus</v-icon>
-        <v-icon v-if="prependSlot" slot="prepend" color="red">mdi-minus</v-icon>
-        <v-icon v-if="appendItemSlot" slot="append-item">mdi-contain-end</v-icon>
-        <v-icon v-if="prependItemSlot" slot="prepend-item">mdi-contain-start</v-icon>
-        <template v-if="selectSlot" v-slot:selection="{ item, index }">
+        <v-icon
+          v-if="appendSlot"
+          slot="append"
+          color="green"
+        >
+          mdi-plus
+        </v-icon>
+        <v-icon
+          v-if="prependSlot"
+          slot="prepend"
+          color="red"
+        >
+          mdi-minus
+        </v-icon>
+        <v-icon
+          v-if="appendItemSlot"
+          slot="append-item"
+        >
+          mdi-contain-end
+        </v-icon>
+        <v-icon
+          v-if="prependItemSlot"
+          slot="prepend-item"
+        >
+          mdi-contain-start
+        </v-icon>
+        <template
+          v-if="selectSlot"
+          v-slot:selection="{ item, index }"
+        >
           <v-chip v-if="index === 0">
             <span>{{ item }}</span>
           </v-chip>

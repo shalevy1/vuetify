@@ -2,11 +2,25 @@
   <div>
     <v-row justify="space-around">
       <v-col cols="12">
-        <v-slider v-model="steps" label="Steps" min="2" max="20"></v-slider>
+        <v-slider
+          v-model="steps"
+          label="Steps"
+          min="2"
+          max="20"
+        ></v-slider>
       </v-col>
-      <v-switch v-model="vertical" label="Vertical"></v-switch>
-      <v-switch v-model="altLabels" label="altLabels"></v-switch>
-      <v-switch v-model="editable" label="Editable"></v-switch>
+      <v-switch
+        v-model="vertical"
+        label="Vertical"
+      ></v-switch>
+      <v-switch
+        v-model="altLabels"
+        label="altLabels"
+      ></v-switch>
+      <v-switch
+        v-model="editable"
+        label="Editable"
+      ></v-switch>
     </v-row>
     <v-stepper
       v-model="e1"
@@ -41,7 +55,9 @@
               Continue
             </v-btn>
 
-            <v-btn text>Cancel</v-btn>
+            <v-btn text>
+              Cancel
+            </v-btn>
           </v-stepper-content>
         </template>
       </template>
@@ -83,7 +99,9 @@
               Continue
             </v-btn>
 
-            <v-btn text>Cancel</v-btn>
+            <v-btn text>
+              Cancel
+            </v-btn>
           </v-stepper-content>
         </v-stepper-items>
       </template>

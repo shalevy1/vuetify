@@ -27,9 +27,13 @@
           >
             <v-col cols="12">
               <h2 class="text-uppercase mb-4 text-center">
-                <base-markdown class="headline font-weight-bold">{{ philosophy.title }}</base-markdown>
+                <base-markdown class="headline font-weight-bold">
+                  {{ philosophy.title }}
+                </base-markdown>
 
-                <base-markdown class="font-weight-thin display-1">{{ philosophy.subtitle }}</base-markdown>
+                <base-markdown class="font-weight-thin display-1">
+                  {{ philosophy.subtitle }}
+                </base-markdown>
               </h2>
 
               <div class="pa-4">

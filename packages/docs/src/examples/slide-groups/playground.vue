@@ -1,12 +1,30 @@
 <template>
   <div>
     <v-row justify="space-around">
-      <v-switch v-model="multiple" label="Multiple"></v-switch>
-      <v-switch v-model="mandatory" label="Mandatory"></v-switch>
-      <v-switch v-model="showArrows" label="Show arrows"></v-switch>
-      <v-switch v-model="prevIcon" label="Custom prev icon"></v-switch>
-      <v-switch v-model="nextIcon" label="Custom next icon"></v-switch>
-      <v-switch v-model="centerActive" label="Center active item"></v-switch>
+      <v-switch
+        v-model="multiple"
+        label="Multiple"
+      ></v-switch>
+      <v-switch
+        v-model="mandatory"
+        label="Mandatory"
+      ></v-switch>
+      <v-switch
+        v-model="showArrows"
+        label="Show arrows"
+      ></v-switch>
+      <v-switch
+        v-model="prevIcon"
+        label="Custom prev icon"
+      ></v-switch>
+      <v-switch
+        v-model="nextIcon"
+        label="Custom next icon"
+      ></v-switch>
+      <v-switch
+        v-model="centerActive"
+        label="Center active item"
+      ></v-switch>
     </v-row>
 
     <v-sheet

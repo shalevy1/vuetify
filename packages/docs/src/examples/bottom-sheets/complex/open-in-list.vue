@@ -18,7 +18,10 @@
           @click="sheet = false"
         >
           <v-list-item-avatar>
-            <v-avatar size="32px" tile>
+            <v-avatar
+              size="32px"
+              tile
+            >
               <img
                 :src="`https://cdn.vuetifyjs.com/images/bottom-sheets/${tile.img}`"
                 :alt="tile.title"

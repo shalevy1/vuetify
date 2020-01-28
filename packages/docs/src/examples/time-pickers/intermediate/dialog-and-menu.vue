@@ -1,6 +1,9 @@
 <template>
   <v-row>
-    <v-col cols="11" sm="5">
+    <v-col
+      cols="11"
+      sm="5"
+    >
       <v-menu
         ref="menu"
         v-model="menu2"
@@ -30,7 +33,10 @@
       </v-menu>
     </v-col>
     <v-spacer></v-spacer>
-    <v-col cols="11" sm="5">
+    <v-col
+      cols="11"
+      sm="5"
+    >
       <v-dialog
         ref="dialog"
         v-model="modal2"
@@ -53,8 +59,20 @@
           full-width
         >
           <v-spacer></v-spacer>
-          <v-btn text color="primary" @click="modal2 = false">Cancel</v-btn>
-          <v-btn text color="primary" @click="$refs.dialog.save(time)">OK</v-btn>
+          <v-btn
+            text
+            color="primary"
+            @click="modal2 = false"
+          >
+            Cancel
+          </v-btn>
+          <v-btn
+            text
+            color="primary"
+            @click="$refs.dialog.save(time)"
+          >
+            OK
+          </v-btn>
         </v-time-picker>
       </v-dialog>
     </v-col>

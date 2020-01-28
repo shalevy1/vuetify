@@ -34,15 +34,21 @@
         <v-list class="grey darken-1">
           <v-list-item>
             <v-list-item-action>
-              <v-icon color="white">mdi-phone</v-icon>
+              <v-icon color="white">
+                mdi-phone
+              </v-icon>
             </v-list-item-action>
 
             <v-list-item-content>
-              <v-list-item-title class="white--text">(650) 555-1234</v-list-item-title>
+              <v-list-item-title class="white--text">
+                (650) 555-1234
+              </v-list-item-title>
             </v-list-item-content>
 
             <v-list-item-action>
-              <v-icon class="white--text">chat</v-icon>
+              <v-icon class="white--text">
+                chat
+              </v-icon>
             </v-list-item-action>
           </v-list-item>
 
@@ -50,15 +56,21 @@
 
           <v-list-item>
             <v-list-item-action>
-              <v-icon color="white">mdi-phone</v-icon>
+              <v-icon color="white">
+                mdi-phone
+              </v-icon>
             </v-list-item-action>
 
             <v-list-item-content>
-              <v-list-item-title class="white--text">(323) 555-6789</v-list-item-title>
+              <v-list-item-title class="white--text">
+                (323) 555-6789
+              </v-list-item-title>
             </v-list-item-content>
 
             <v-list-item-action>
-              <v-icon class="white--text">chat</v-icon>
+              <v-icon class="white--text">
+                chat
+              </v-icon>
             </v-list-item-action>
           </v-list-item>
 
@@ -66,11 +78,15 @@
 
           <v-list-item>
             <v-list-item-action>
-              <v-icon color="white">mdi-email</v-icon>
+              <v-icon color="white">
+                mdi-email
+              </v-icon>
             </v-list-item-action>
 
             <v-list-item-content>
-              <v-list-item-title class="white--text">mcbeal@example.com</v-list-item-title>
+              <v-list-item-title class="white--text">
+                mcbeal@example.com
+              </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
@@ -78,11 +94,15 @@
 
           <v-list-item>
             <v-list-item-action>
-              <v-icon color="white">mdi-map-marker</v-icon>
+              <v-icon color="white">
+                mdi-map-marker
+              </v-icon>
             </v-list-item-action>
 
             <v-list-item-content>
-              <v-list-item-title class="white--text">Orlando, FL 79938</v-list-item-title>
+              <v-list-item-title class="white--text">
+                Orlando, FL 79938
+              </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list>

@@ -1,11 +1,10 @@
 <template>
-  <v-layout
-    wrap
-    mb-12
+  <v-row
+    class="mb-12"
   >
-    <v-flex
-      xs12
-      mb-12
+    <v-col
+      class="mb-12"
+      cols="12"
     >
       <v-autocomplete
         v-model="selected"
@@ -44,12 +43,11 @@
           </v-list-item-content>
         </template>
       </v-autocomplete>
-    </v-flex>
-    <v-flex
+    </v-col>
+    <v-col
       v-if="!selected"
-      xs12
-      text-center
-      grey--text
+      class="text-center grey--text"
+      cols="12"
     >
       <h2
         class="display-1"
@@ -60,10 +58,10 @@
         class="display-1"
         v-text="$t('Components.ApiExplorer.browseCategories')"
       />
-    </v-flex>
-    <v-flex
+    </v-col>
+    <v-col
       v-else
-      xs12
+      cols="12"
     >
       <provide-provider
         :key="composite"
@@ -72,8 +70,8 @@
       >
         <doc-api :value="[selected.text]" />
       </provide-provider>
-    </v-flex>
-  </v-layout>
+    </v-col>
+  </v-row>
 </template>
 
 <script>

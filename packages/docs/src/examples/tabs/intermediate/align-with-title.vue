@@ -26,7 +26,10 @@
         >
           <v-tabs-slider color="yellow"></v-tabs-slider>
 
-          <v-tab v-for="item in items" :key="item">
+          <v-tab
+            v-for="item in items"
+            :key="item"
+          >
             {{ item }}
           </v-tab>
         </v-tabs>

@@ -2,15 +2,51 @@
   <v-row justify="space-around">
     <v-col cols="12">
       <v-row justify="space-around">
-        <v-switch v-model="landscape" class="ma-4" label="Landscape"></v-switch>
-        <v-switch v-model="reactive" class="ma-4" label="Reactive"></v-switch>
-        <v-switch v-model="fullWidth" class="ma-4" label="Full width"></v-switch>
-        <v-switch v-model="showCurrent" class="ma-4" label="Show current date"></v-switch>
-        <v-switch v-model="month" class="ma-4" label="Month picker"></v-switch>
-        <v-switch v-model="multiple" class="ma-4" label="Multiple"></v-switch>
-        <v-switch v-model="readonly" class="ma-4" label="Readonly"></v-switch>
-        <v-switch v-model="disabled" class="ma-4" label="Disabled"></v-switch>
-        <v-switch v-model="enableEvents" class="ma-4" label="Events"></v-switch>
+        <v-switch
+          v-model="landscape"
+          class="ma-4"
+          label="Landscape"
+        ></v-switch>
+        <v-switch
+          v-model="reactive"
+          class="ma-4"
+          label="Reactive"
+        ></v-switch>
+        <v-switch
+          v-model="fullWidth"
+          class="ma-4"
+          label="Full width"
+        ></v-switch>
+        <v-switch
+          v-model="showCurrent"
+          class="ma-4"
+          label="Show current date"
+        ></v-switch>
+        <v-switch
+          v-model="month"
+          class="ma-4"
+          label="Month picker"
+        ></v-switch>
+        <v-switch
+          v-model="multiple"
+          class="ma-4"
+          label="Multiple"
+        ></v-switch>
+        <v-switch
+          v-model="readonly"
+          class="ma-4"
+          label="Readonly"
+        ></v-switch>
+        <v-switch
+          v-model="disabled"
+          class="ma-4"
+          label="Disabled"
+        ></v-switch>
+        <v-switch
+          v-model="enableEvents"
+          class="ma-4"
+          label="Events"
+        ></v-switch>
       </v-row>
     </v-col>
 

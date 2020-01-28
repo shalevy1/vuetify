@@ -7,7 +7,9 @@
       outlined
     >
       <v-simple-table>
-        <caption class="pa-4">{{ font.header }}</caption>
+        <caption class="pa-4">
+          {{ font.header }}
+        </caption>
 
         <thead>
           <tr>

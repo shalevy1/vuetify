@@ -4,7 +4,10 @@
     style="max-width: 600px;"
   >
     <v-row>
-      <v-col class="d-flex" cols="6">
+      <v-col
+        class="d-flex"
+        cols="6"
+      >
         <v-img
           src="https://cdn.vuetifyjs.com/images/ratings/fortnite1.png"
         ></v-img>
@@ -15,22 +18,34 @@
           style="margin: -4px 0"
         >
           <v-row>
-            <v-col class="d-flex" cols="7">
+            <v-col
+              class="d-flex"
+              cols="7"
+            >
               <v-img
                 src="https://cdn.vuetifyjs.com/images/ratings/fortnite2.png"
               ></v-img>
             </v-col>
-            <v-col class="d-flex" cols="5">
+            <v-col
+              class="d-flex"
+              cols="5"
+            >
               <v-img
                 src="https://cdn.vuetifyjs.com/images/ratings/fortnite3.png"
               ></v-img>
             </v-col>
-            <v-col class="d-flex" cols="5">
+            <v-col
+              class="d-flex"
+              cols="5"
+            >
               <v-img
                 src="https://cdn.vuetifyjs.com/images/ratings/fortnite4.png"
               ></v-img>
             </v-col>
-            <v-col class="d-flex" cols="7">
+            <v-col
+              class="d-flex"
+              cols="7"
+            >
               <v-img
                 src="https://cdn.vuetifyjs.com/images/ratings/fortnite5.png"
               ></v-img>
@@ -42,7 +57,9 @@
     <v-card-title class="align-start">
       <div>
         <span class="headline">FORTNITE</span>
-        <div class="grey--text font-weight-light">Video game</div>
+        <div class="grey--text font-weight-light">
+          Video game
+        </div>
       </div>
       <v-spacer></v-spacer>
       <v-dialog
@@ -69,13 +86,17 @@
           <v-list>
             <v-list-item @click="">
               <v-list-item-action>
-                <v-icon color="indigo">mdi-facebook-box</v-icon>
+                <v-icon color="indigo">
+                  mdi-facebook-box
+                </v-icon>
               </v-list-item-action>
               <v-card-title>Facebook</v-card-title>
             </v-list-item>
             <v-list-item @click="">
               <v-list-item-action>
-                <v-icon color="cyan">mdi-twitter-box</v-icon>
+                <v-icon color="cyan">
+                  mdi-twitter-box
+                </v-icon>
               </v-list-item-action>
               <v-card-title>Twitter</v-card-title>
             </v-list-item>

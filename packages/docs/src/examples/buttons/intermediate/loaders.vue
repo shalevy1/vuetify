@@ -18,7 +18,12 @@
       @click="loader = 'loading3'"
     >
       Upload
-      <v-icon right dark>mdi-cloud-upload</v-icon>
+      <v-icon
+        right
+        dark
+      >
+        mdi-cloud-upload
+      </v-icon>
     </v-btn>
 
     <v-btn
@@ -57,7 +62,9 @@
       fab
       @click="loader = 'loading5'"
     >
-      <v-icon dark>mdi-cloud-upload</v-icon>
+      <v-icon dark>
+        mdi-cloud-upload
+      </v-icon>
     </v-btn>
   </div>
 </template>

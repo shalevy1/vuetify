@@ -3,8 +3,15 @@
     <v-card-text>
       <v-container fluid>
         <v-row>
-          <v-col cols="12" sm="6" md="6">
-            <v-radio-group v-model="ex7" column>
+          <v-col
+            cols="12"
+            sm="6"
+            md="6"
+          >
+            <v-radio-group
+              v-model="ex7"
+              column
+            >
               <v-radio
                 label="red"
                 color="red"
@@ -37,8 +44,15 @@
               ></v-radio>
             </v-radio-group>
           </v-col>
-          <v-col cols="12" sm="6" md="6">
-            <v-radio-group v-model="ex8" column>
+          <v-col
+            cols="12"
+            sm="6"
+            md="6"
+          >
+            <v-radio-group
+              v-model="ex8"
+              column
+            >
               <v-radio
                 label="primary"
                 color="primary"

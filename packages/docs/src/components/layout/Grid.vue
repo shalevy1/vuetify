@@ -4,7 +4,9 @@
     outlined
   >
     <v-simple-table>
-      <caption class="pa-4">Material Design Viewport Breakpoints</caption>
+      <caption class="pa-4">
+        Material Design Viewport Breakpoints
+      </caption>
 
       <thead>
         <tr class="text-left">
@@ -18,7 +20,9 @@
       <tbody>
         <tr>
           <td>
-            <v-icon left>mdi-cellphone-iphone</v-icon>
+            <v-icon left>
+              mdi-cellphone-iphone
+            </v-icon>
             <span>Extra small</span>
           </td>
           <td>
@@ -30,7 +34,9 @@
 
         <tr>
           <td>
-            <v-icon left>mdi-tablet</v-icon>
+            <v-icon left>
+              mdi-tablet
+            </v-icon>
             <span>Small</span>
           </td>
           <td>
@@ -42,7 +48,9 @@
 
         <tr>
           <td>
-            <v-icon left>mdi-laptop</v-icon>
+            <v-icon left>
+              mdi-laptop
+            </v-icon>
             <span>Medium</span>
           </td>
           <td>
@@ -54,7 +62,9 @@
 
         <tr>
           <td>
-            <v-icon left>mdi-monitor</v-icon>
+            <v-icon left>
+              mdi-monitor
+            </v-icon>
             <span>Large</span>
           </td>
           <td>
@@ -66,7 +76,9 @@
 
         <tr>
           <td>
-            <v-icon left>mdi-television</v-icon>
+            <v-icon left>
+              mdi-television
+            </v-icon>
             <span>Extra large</span>
           </td>
           <td>

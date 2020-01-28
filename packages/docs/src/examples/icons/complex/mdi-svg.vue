@@ -13,7 +13,9 @@
       color="primary"
       depressed
     >
-      <v-icon left>{{ icons.mdiDelete }}</v-icon>
+      <v-icon left>
+        {{ icons.mdiDelete }}
+      </v-icon>
       Delete
     </v-btn>
   </v-row>

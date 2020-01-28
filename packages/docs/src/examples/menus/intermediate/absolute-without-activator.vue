@@ -1,6 +1,9 @@
 <template>
   <div>
-    <v-row class="flex" justify="center">
+    <v-row
+      class="flex"
+      justify="center"
+    >
       <v-card
         :ripple="false"
         class="portrait"

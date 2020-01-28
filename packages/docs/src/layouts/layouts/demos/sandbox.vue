@@ -91,11 +91,15 @@
               </v-card-text>
               <v-card-actions>
                 <v-spacer />
-                <v-btn text>Cancel</v-btn>
+                <v-btn text>
+                  Cancel
+                </v-btn>
                 <v-btn
                   text
                   color="primary"
-                >Submit</v-btn>
+                >
+                  Submit
+                </v-btn>
               </v-card-actions>
             </v-card>
           </v-col>

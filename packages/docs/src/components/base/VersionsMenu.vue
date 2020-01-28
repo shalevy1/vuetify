@@ -17,7 +17,9 @@
       >
         <span v-text="version" />
 
-        <v-icon right>mdi-menu-{{ menu ? 'up' : 'down' }}</v-icon>
+        <v-icon right>
+          mdi-menu-{{ menu ? 'up' : 'down' }}
+        </v-icon>
       </v-btn>
     </template>
 

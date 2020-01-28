@@ -1,7 +1,9 @@
 <template>
   <v-toolbar color="orange accent-1">
     <v-app-bar-nav-icon class="hidden-sm-and-down"></v-app-bar-nav-icon>
-    <v-toolbar-title class="title mr-6 hidden-sm-and-down">Cryptocurrency</v-toolbar-title>
+    <v-toolbar-title class="title mr-6 hidden-sm-and-down">
+      Cryptocurrency
+    </v-toolbar-title>
     <v-autocomplete
       v-model="model"
       :items="items"
@@ -32,7 +34,9 @@
           class="white--text"
           v-on="on"
         >
-          <v-icon left>mdi-coin</v-icon>
+          <v-icon left>
+            mdi-coin
+          </v-icon>
           <span v-text="item.name"></span>
         </v-chip>
       </template>
@@ -59,9 +63,15 @@
         color="blue-grey"
         slider-color="blue-grey"
       >
-        <v-tab :disabled="!model">News</v-tab>
-        <v-tab :disabled="!model">Trading</v-tab>
-        <v-tab :disabled="!model">Blog</v-tab>
+        <v-tab :disabled="!model">
+          News
+        </v-tab>
+        <v-tab :disabled="!model">
+          Trading
+        </v-tab>
+        <v-tab :disabled="!model">
+          Blog
+        </v-tab>
       </v-tabs>
     </template>
   </v-toolbar>

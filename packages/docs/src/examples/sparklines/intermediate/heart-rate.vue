@@ -28,7 +28,11 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn icon class="align-self-start" size="28">
+      <v-btn
+        icon
+        class="align-self-start"
+        size="28"
+      >
         <v-icon>mdi-arrow-right-thick</v-icon>
       </v-btn>
     </v-card-title>

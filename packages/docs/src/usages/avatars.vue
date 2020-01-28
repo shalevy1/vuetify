@@ -1,6 +1,9 @@
 <template>
   <v-container class="fill-height">
-    <v-row align="center" justify="center">
+    <v-row
+      align="center"
+      justify="center"
+    >
       <v-avatar
         v-bind="{
           ...attrs,
@@ -12,7 +15,10 @@
           alt="avatar"
           src="https://vuetifyjs.com/apple-touch-icon-180x180.png"
         >
-        <span v-else class="white--text">VJ</span>
+        <span
+          v-else
+          class="white--text"
+        >VJ</span>
       </v-avatar>
     </v-row>
   </v-container>

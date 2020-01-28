@@ -9,7 +9,9 @@
     width="362"
     style="padding-bottom: 10px;"
   >
-    <div :id="id"><!-- Ad --></div>
+    <div :id="id">
+      <!-- Ad -->
+    </div>
   </v-card>
 
   <ad-card v-else />

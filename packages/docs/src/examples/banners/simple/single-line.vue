@@ -22,7 +22,9 @@
         <v-btn
           text
           color="deep-purple accent-4"
-        >Get Online</v-btn>
+        >
+          Get Online
+        </v-btn>
       </template>
     </v-banner>
     <v-card-text class="grey lighten-4">

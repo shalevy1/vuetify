@@ -11,7 +11,10 @@
         :search-input.sync="search"
         v-bind="attrs"
       >
-        <template v-if="noData" v-slot:no-data>
+        <template
+          v-if="noData"
+          v-slot:no-data
+        >
           <v-list-item>
             <v-list-item-content>
               <v-list-item-title>

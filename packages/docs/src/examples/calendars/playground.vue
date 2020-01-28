@@ -13,7 +13,9 @@
         color="primary"
         @click="$refs.calendar.prev()"
       >
-        <v-icon dark>mdi-chevron-left</v-icon>
+        <v-icon dark>
+          mdi-chevron-left
+        </v-icon>
       </v-btn>
       <v-btn
         fab
@@ -23,7 +25,9 @@
         color="primary"
         @click="$refs.calendar.next()"
       >
-        <v-icon dark>mdi-chevron-right</v-icon>
+        <v-icon dark>
+          mdi-chevron-right
+        </v-icon>
       </v-btn>
       <br><br><br>
       <v-select

@@ -1,6 +1,10 @@
 <template>
   <v-container class="pa-4 text-center">
-    <v-row class="fill-height" align="center" justify="center">
+    <v-row
+      class="fill-height"
+      align="center"
+      justify="center"
+    >
       <template v-for="(item, i) in items">
         <v-col
           :key="i"
@@ -21,7 +25,9 @@
                     class="fill-height flex-column"
                     justify="space-between"
                   >
-                    <p class="mt-4 subheading text-left">{{ item.title }}</p>
+                    <p class="mt-4 subheading text-left">
+                      {{ item.title }}
+                    </p>
 
                     <div>
                       <p class="ma-0 body-1 font-weight-bold font-italic text-left">

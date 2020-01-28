@@ -1,6 +1,9 @@
 <template>
   <div>
-    <v-text-field v-model="content" label="Content"></v-text-field>
+    <v-text-field
+      v-model="content"
+      label="Content"
+    ></v-text-field>
     <v-sheet v-mutate="onMutate">
       {{ content }}
     </v-sheet>

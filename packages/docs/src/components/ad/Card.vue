@@ -31,7 +31,9 @@
           </v-list-item-content>
 
           <v-list-item-action>
-            <v-icon class="mb-3">mdi-open-in-new</v-icon>
+            <v-icon class="mb-3">
+              mdi-open-in-new
+            </v-icon>
 
             <span class="caption text--secondary">ads by Vuetify</span>
           </v-list-item-action>

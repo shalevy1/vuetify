@@ -72,7 +72,9 @@
             lg="3"
           >
             <v-card>
-              <v-card-title class="subheading font-weight-bold">{{ item.name }}</v-card-title>
+              <v-card-title class="subheading font-weight-bold">
+                {{ item.name }}
+              </v-card-title>
 
               <v-divider></v-divider>
 
@@ -81,8 +83,15 @@
                   v-for="(key, index) in filteredKeys"
                   :key="index"
                 >
-                  <v-list-item-content :class="{ 'blue--text': sortBy === key }">{{ key }}:</v-list-item-content>
-                  <v-list-item-content class="align-end" :class="{ 'blue--text': sortBy === key }">{{ item[key.toLowerCase()] }}</v-list-item-content>
+                  <v-list-item-content :class="{ 'blue--text': sortBy === key }">
+                    {{ key }}:
+                  </v-list-item-content>
+                  <v-list-item-content
+                    class="align-end"
+                    :class="{ 'blue--text': sortBy === key }"
+                  >
+                    {{ item[key.toLowerCase()] }}
+                  </v-list-item-content>
                 </v-list-item>
               </v-list>
             </v-card>
@@ -91,7 +100,11 @@
       </template>
 
       <template v-slot:footer>
-        <v-row class="mt-2" align="center" justify="center">
+        <v-row
+          class="mt-2"
+          align="center"
+          justify="center"
+        >
           <span class="grey--text">Items per page</span>
           <v-menu offset-y>
             <template v-slot:activator="{ on }">
@@ -279,7 +292,7 @@
         return Math.ceil(this.items.length / this.itemsPerPage)
       },
       filteredKeys () {
-        return this.keys.filter(key => key !== `Name`)
+        return this.keys.filter(key => key !== 'Name')
       },
     },
     methods: {

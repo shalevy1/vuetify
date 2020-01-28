@@ -1,12 +1,22 @@
 <template>
   <v-row justify="space-around">
-    <v-col cols="12" sm="6" md="4">
-      <v-sheet elevation="10" class="py-4 px-1">
+    <v-col
+      cols="12"
+      sm="6"
+      md="4"
+    >
+      <v-sheet
+        elevation="10"
+        class="py-4 px-1"
+      >
         <v-chip-group
           mandatory
           active-class="primary--text"
         >
-          <v-chip v-for="tag in tags" :key="tag">
+          <v-chip
+            v-for="tag in tags"
+            :key="tag"
+          >
             {{ tag }}
           </v-chip>
         </v-chip-group>

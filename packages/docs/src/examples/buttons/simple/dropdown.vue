@@ -1,7 +1,10 @@
 <template>
   <v-container id="dropdown-example">
     <v-row>
-      <v-col cols="12" sm="4">
+      <v-col
+        cols="12"
+        sm="4"
+      >
         <p>Overflow</p>
 
         <v-overflow-btn
@@ -12,7 +15,10 @@
         ></v-overflow-btn>
       </v-col>
 
-      <v-col cols="12" sm="4">
+      <v-col
+        cols="12"
+        sm="4"
+      >
         <p>Segmented</p>
 
         <v-overflow-btn
@@ -24,7 +30,10 @@
         ></v-overflow-btn>
       </v-col>
 
-      <v-col cols="12" sm="4">
+      <v-col
+        cols="12"
+        sm="4"
+      >
         <p>Editable</p>
 
         <v-overflow-btn

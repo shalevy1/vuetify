@@ -6,7 +6,9 @@
       v-if="subheading"
       class="mx-auto"
       max-width="600"
-    >{{ subheading }}</base-text>
+    >
+      {{ subheading }}
+    </base-text>
 
     <v-container class="pa-0 mb-6">
       <v-row

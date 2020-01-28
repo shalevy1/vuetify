@@ -1,24 +1,46 @@
 <template>
   <v-container fluid>
-    <v-slider v-model="width" min="200" max="500" step="1"></v-slider>
+    <v-slider
+      v-model="width"
+      min="200"
+      max="500"
+      step="1"
+    ></v-slider>
     <v-navigation-drawer
       :width="width"
       :value="true"
       stateless
     >
-      <v-img :aspect-ratio="16/9" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg">
-        <v-row align="end" class="lightbox white--text pa-2 fill-height">
+      <v-img
+        :aspect-ratio="16/9"
+        src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+      >
+        <v-row
+          align="end"
+          class="lightbox white--text pa-2 fill-height"
+        >
           <v-col>
-            <div class="subheading">Jonathan Lee</div>
-            <div class="body-1">heyfromjonathan@gmail.com</div>
+            <div class="subheading">
+              Jonathan Lee
+            </div>
+            <div class="body-1">
+              heyfromjonathan@gmail.com
+            </div>
           </v-col>
         </v-row>
       </v-img>
 
       <v-list>
         <template v-for="(item, i) in items">
-          <v-divider v-if="item.divider" :key="i"></v-divider>
-          <v-list-item v-else :key="item.title" @click>
+          <v-divider
+            v-if="item.divider"
+            :key="i"
+          ></v-divider>
+          <v-list-item
+            v-else
+            :key="item.title"
+            @click
+          >
             <v-list-item-action>
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-item-action>

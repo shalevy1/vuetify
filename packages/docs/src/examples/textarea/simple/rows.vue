@@ -1,7 +1,10 @@
 <template>
   <v-container fluid>
     <v-row>
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <v-textarea
           label="One row"
           auto-grow
@@ -10,7 +13,10 @@
           row-height="15"
         ></v-textarea>
       </v-col>
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <v-textarea
           filled
           auto-grow
@@ -19,7 +25,10 @@
           row-height="20"
         ></v-textarea>
       </v-col>
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <v-textarea
           label="Three rows"
           auto-grow
@@ -29,7 +38,10 @@
           shaped
         ></v-textarea>
       </v-col>
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <v-textarea
           filled
           auto-grow

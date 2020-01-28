@@ -9,7 +9,9 @@
         justify="center"
       >
         <v-col cols="12">
-          <p class="text-center">Rounded</p>
+          <p class="text-center">
+            Rounded
+          </p>
         </v-col>
         <v-btn-toggle
           v-model="toggle_exclusive"

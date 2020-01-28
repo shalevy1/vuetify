@@ -3,7 +3,11 @@
     <v-card-text>
       <v-container fluid>
         <v-row>
-          <v-col cols="12" sm="4" md="4">
+          <v-col
+            cols="12"
+            sm="4"
+            md="4"
+          >
             <v-switch
               v-model="ex11"
               label="red"
@@ -19,7 +23,11 @@
               hide-details
             ></v-switch>
           </v-col>
-          <v-col cols="12" sm="4" md="4">
+          <v-col
+            cols="12"
+            sm="4"
+            md="4"
+          >
             <v-switch
               v-model="ex11"
               label="indigo"
@@ -35,7 +43,11 @@
               hide-details
             ></v-switch>
           </v-col>
-          <v-col cols="12" sm="4" md="4">
+          <v-col
+            cols="12"
+            sm="4"
+            md="4"
+          >
             <v-switch
               v-model="ex11"
               label="orange"
@@ -54,7 +66,11 @@
         </v-row>
 
         <v-row class="mt-12">
-          <v-col cols="12" sm="4" md="4">
+          <v-col
+            cols="12"
+            sm="4"
+            md="4"
+          >
             <v-switch
               v-model="ex11"
               label="primary"
@@ -70,7 +86,11 @@
               hide-details
             ></v-switch>
           </v-col>
-          <v-col cols="12" sm="4" md="4">
+          <v-col
+            cols="12"
+            sm="4"
+            md="4"
+          >
             <v-switch
               v-model="ex11"
               label="success"
@@ -86,7 +106,11 @@
               hide-details
             ></v-switch>
           </v-col>
-          <v-col cols="12" sm="4" md="4">
+          <v-col
+            cols="12"
+            sm="4"
+            md="4"
+          >
             <v-switch
               v-model="ex11"
               label="warning"

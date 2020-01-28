@@ -35,8 +35,14 @@
         >
           <v-card flat>
             <v-card-text>
-              <v-row class="mb-4" align="center">
-                <v-avatar color="grey" class="mr-4"></v-avatar>
+              <v-row
+                class="mb-4"
+                align="center"
+              >
+                <v-avatar
+                  color="grey"
+                  class="mr-4"
+                ></v-avatar>
                 <strong class="title">Title {{ n }}</strong>
                 <v-spacer></v-spacer>
                 <v-btn icon>

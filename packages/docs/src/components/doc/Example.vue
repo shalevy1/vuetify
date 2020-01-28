@@ -15,7 +15,9 @@
         color="warning"
         small
       >
-        <v-icon left>mdi-star</v-icon>
+        <v-icon left>
+          mdi-star
+        </v-icon>
 
         <span>New in <strong>{{ newIn }}</strong></span>
       </v-chip>
@@ -135,7 +137,9 @@
                   :filename="false"
                   :value="file"
                   class="mb-0"
-                >{{ parsed[section] }}</doc-markup>
+                >
+                  {{ parsed[section] }}
+                </doc-markup>
               </div>
             </v-window-item>
           </template>

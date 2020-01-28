@@ -3,27 +3,23 @@
     class="pa-12 hidden-sm-and-down"
     flat
   >
-    <v-layout
+    <v-row
       v-for="(type, i) in typefaces"
       :key="i"
-      my-4
-      align-center
-      justify-space-between
-      wrap
+      class="my-4"
+      align="center"
+      justify="space-between"
     >
-      <v-flex
+      <v-col
         :class="type[1]"
         v-html="type[0]"
       />
-      <v-flex
-        hidden-md-and-down
-        text-right
-        text-uppercase
-        grey--text
+      <v-col
+        class="hidden-md-and-down text-right text-uppercase grey--text"
       >
         {{ type[2] }}
-      </v-flex>
-    </v-layout>
+      </v-col>
+    </v-row>
   </v-card>
 </template>
 

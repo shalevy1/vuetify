@@ -20,9 +20,13 @@
           text
           to="getting-started/quick-start"
         >
-          <base-nav-text class="hidden-sm-and-down">Vuetify.AppToolbar.documentation</base-nav-text>
+          <base-nav-text class="hidden-sm-and-down">
+            Vuetify.AppToolbar.documentation
+          </base-nav-text>
 
-          <v-icon class="hidden-md-and-up">mdi-speedometer</v-icon>
+          <v-icon class="hidden-md-and-up">
+            mdi-speedometer
+          </v-icon>
         </v-btn>
 
         <base-store-link />

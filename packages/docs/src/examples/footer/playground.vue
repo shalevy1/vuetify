@@ -17,7 +17,9 @@
             class="mx-4"
             icon
           >
-            <v-icon size="24px">{{ icon }}</v-icon>
+            <v-icon size="24px">
+              {{ icon }}
+            </v-icon>
           </v-btn>
         </v-card-text>
 
@@ -38,7 +40,6 @@
         cols="12"
         md="8"
       >
-
         <v-select
           v-model="variant"
           :items="items"

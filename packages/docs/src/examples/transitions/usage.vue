@@ -2,7 +2,11 @@
   <v-row justify="center">
     <v-menu transition="slide-x-transition">
       <template v-slot:activator="{ on }">
-        <v-btn color="primary" class="ma-2" v-on="on">
+        <v-btn
+          color="primary"
+          class="ma-2"
+          v-on="on"
+        >
           Slide X Transition
         </v-btn>
       </template>
@@ -21,7 +25,11 @@
 
     <v-menu transition="scroll-y-transition">
       <template v-slot:activator="{ on }">
-        <v-btn color="secondary" class="ma-2" v-on="on">
+        <v-btn
+          color="secondary"
+          class="ma-2"
+          v-on="on"
+        >
           Scroll Y Transition
         </v-btn>
       </template>

@@ -35,7 +35,9 @@
           <v-btn
             class="ma-2"
             v-on="on"
-          >A Menu</v-btn>
+          >
+            A Menu
+          </v-btn>
         </template>
         <v-list>
           <v-list-item
@@ -117,7 +119,9 @@
                 <v-btn
                   class="ma-2"
                   v-on="on"
-                >Tool Tip Activator</v-btn>
+                >
+                  Tool Tip Activator
+                </v-btn>
               </template>
               Tool Tip
             </v-tooltip>

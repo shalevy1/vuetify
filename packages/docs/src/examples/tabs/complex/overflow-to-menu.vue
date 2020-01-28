@@ -45,7 +45,9 @@
                 v-on="on"
               >
                 more
-                <v-icon right>mdi-menu-down</v-icon>
+                <v-icon right>
+                  mdi-menu-down
+                </v-icon>
               </v-btn>
             </template>
 

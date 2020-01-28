@@ -4,7 +4,9 @@
     max-width="400"
   >
     <v-card-title>
-      <h2 class="display-1">Shirt Blouse</h2>
+      <h2 class="display-1">
+        Shirt Blouse
+      </h2>
       <v-spacer></v-spacer>
       <span class="title">$44.50</span>
     </v-card-title>
@@ -23,7 +25,11 @@
         active-class="deep-purple--text text--accent-4"
         mandatory
       >
-        <v-chip v-for="size in sizes" :key="size" :value="size">
+        <v-chip
+          v-for="size in sizes"
+          :key="size"
+          :value="size"
+        >
           {{ size }}
         </v-chip>
       </v-chip-group>

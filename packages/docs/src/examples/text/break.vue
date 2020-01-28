@@ -1,6 +1,8 @@
 <template>
   <div>
-    <p class="custom-transform-class text-none">Random TEXT cApitaLization</p>
+    <p class="custom-transform-class text-none">
+      Random TEXT cApitaLization
+    </p>
     <p
       class="text-break"
       style="max-width: 4rem;"

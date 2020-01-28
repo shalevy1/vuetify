@@ -1,13 +1,20 @@
 <template>
   <v-row>
-    <v-col cols="12" sm="6" offset-sm="3">
+    <v-col
+      cols="12"
+      sm="6"
+      offset-sm="3"
+    >
       <v-card height="200px">
         <v-card-title class="blue white--text">
           <span class="headline">Menu</span>
 
           <v-spacer></v-spacer>
 
-          <v-menu bottom left>
+          <v-menu
+            bottom
+            left
+          >
             <template v-slot:activator="{ on }">
               <v-btn
                 dark

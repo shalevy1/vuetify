@@ -1,6 +1,9 @@
 <template>
   <div>
-    <v-row justify="center" align="center">
+    <v-row
+      justify="center"
+      align="center"
+    >
       <v-subheader>Offset Top</v-subheader>
       {{ offsetTop }}
     </v-row>

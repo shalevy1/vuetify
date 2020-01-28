@@ -1,5 +1,9 @@
 <template>
-  <v-row v-resize="onResize" align="center" justify="center">
+  <v-row
+    v-resize="onResize"
+    align="center"
+    justify="center"
+  >
     <v-subheader>Window Size</v-subheader>
     {{ windowSize }}
   </v-row>

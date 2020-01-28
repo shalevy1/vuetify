@@ -1,18 +1,66 @@
 <template>
   <v-row align="center">
     <v-row justify="space-around">
-      <v-switch v-model="disabled" class="ma-2" label="Disabled"></v-switch>
-      <v-switch v-model="dense" class="ma-2" label="Dense"></v-switch>
-      <v-switch v-model="twoLine" class="ma-2" label="Two-line"></v-switch>
-      <v-switch v-model="threeLine" class="ma-2" label="Three-line"></v-switch>
-      <v-switch v-model="shaped" class="ma-2" label="Shaped"></v-switch>
-      <v-switch v-model="flat" class="ma-2" label="Flat"></v-switch>
-      <v-switch v-model="subheader" class="ma-2" label="Subheader"></v-switch>
-      <v-switch v-model="inactive" class="ma-2" label="Inactive"></v-switch>
-      <v-switch v-model="subGroup" class="ma-2" label="Sub-group"></v-switch>
-      <v-switch v-model="nav" class="ma-2" label="Nav"></v-switch>
-      <v-switch v-model="avatar" class="ma-2" label="Avatar"></v-switch>
-      <v-switch v-model="rounded" class="ma-2" label="Rounded"></v-switch>
+      <v-switch
+        v-model="disabled"
+        class="ma-2"
+        label="Disabled"
+      ></v-switch>
+      <v-switch
+        v-model="dense"
+        class="ma-2"
+        label="Dense"
+      ></v-switch>
+      <v-switch
+        v-model="twoLine"
+        class="ma-2"
+        label="Two-line"
+      ></v-switch>
+      <v-switch
+        v-model="threeLine"
+        class="ma-2"
+        label="Three-line"
+      ></v-switch>
+      <v-switch
+        v-model="shaped"
+        class="ma-2"
+        label="Shaped"
+      ></v-switch>
+      <v-switch
+        v-model="flat"
+        class="ma-2"
+        label="Flat"
+      ></v-switch>
+      <v-switch
+        v-model="subheader"
+        class="ma-2"
+        label="Subheader"
+      ></v-switch>
+      <v-switch
+        v-model="inactive"
+        class="ma-2"
+        label="Inactive"
+      ></v-switch>
+      <v-switch
+        v-model="subGroup"
+        class="ma-2"
+        label="Sub-group"
+      ></v-switch>
+      <v-switch
+        v-model="nav"
+        class="ma-2"
+        label="Nav"
+      ></v-switch>
+      <v-switch
+        v-model="avatar"
+        class="ma-2"
+        label="Avatar"
+      ></v-switch>
+      <v-switch
+        v-model="rounded"
+        class="ma-2"
+        label="Rounded"
+      ></v-switch>
     </v-row>
     <v-card
       class="mx-auto"
@@ -33,7 +81,10 @@
         :rounded="rounded"
       >
         <v-subheader>REPORTS</v-subheader>
-        <v-list-item-group v-model="item" color="primary">
+        <v-list-item-group
+          v-model="item"
+          color="primary"
+        >
           <v-list-item
             v-for="(item, i) in items"
             :key="i"
@@ -44,7 +95,10 @@
             </v-list-item-avatar>
             <v-list-item-content>
               <v-list-item-title v-html="item.title"></v-list-item-title>
-              <v-list-item-subtitle v-if="twoLine || threeLine" v-html="item.subtitle"></v-list-item-subtitle>
+              <v-list-item-subtitle
+                v-if="twoLine || threeLine"
+                v-html="item.subtitle"
+              ></v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
         </v-list-item-group>

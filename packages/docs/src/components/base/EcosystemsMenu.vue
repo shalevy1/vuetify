@@ -13,7 +13,9 @@
         v-bind="attrs"
         v-on="on"
       >
-        <base-nav-text class="hidden-sm-and-down">Vuetify.AppToolbar.ecosystem</base-nav-text>
+        <base-nav-text class="hidden-sm-and-down">
+          Vuetify.AppToolbar.ecosystem
+        </base-nav-text>
 
         <v-icon
           class="hidden-sm-and-down"
@@ -22,7 +24,9 @@
           mdi-menu-down
         </v-icon>
 
-        <v-icon class="hidden-md-and-up">mdi-earth</v-icon>
+        <v-icon class="hidden-md-and-up">
+          mdi-earth
+        </v-icon>
       </v-btn>
     </template>
 

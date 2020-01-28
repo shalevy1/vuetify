@@ -23,7 +23,9 @@
                 <base-markdown>Vuetify.Home.callout</base-markdown>
               </base-title>
 
-              <base-text dark>Vuetify.Home.text</base-text>
+              <base-text dark>
+                Vuetify.Home.text
+              </base-text>
 
               <div class="py-4" />
 

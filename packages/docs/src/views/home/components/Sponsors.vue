@@ -14,7 +14,9 @@
       <base-text
         class="mx-auto mb-6"
         max-width="600"
-      >Vuetify.Home.proundlySponsoredByText</base-text>
+      >
+        Vuetify.Home.proundlySponsoredByText
+      </base-text>
 
       <supporters-sponsors
         :tier="[0, 1, 2, 3, 5, 6]"

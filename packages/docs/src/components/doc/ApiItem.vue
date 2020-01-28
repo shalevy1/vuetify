@@ -1,9 +1,8 @@
 <template>
-  <v-layout
+  <v-row
     class="api-item pa-2"
-    wrap
   >
-    <v-flex
+    <v-col
       v-for="header in headers"
       :key="header.name"
       :class="header.class"
@@ -44,7 +43,9 @@
         :filename="false"
         lang="sass"
         value="example"
-      >{{ item.default }}</doc-markup>
+      >
+        {{ item.default }}
+      </doc-markup>
 
       <!-- Description -->
       <base-markdown
@@ -58,7 +59,9 @@
         :filename="false"
         lang="ts"
         value="example"
-      >{{ item.signature }}</doc-markup>
+      >
+        {{ item.signature }}
+      </doc-markup>
 
       <!-- Options -->
       <doc-markup
@@ -66,7 +69,9 @@
         :filename="false"
         lang="json"
         value="example"
-      >{{ item.options }}</doc-markup>
+      >
+        {{ item.options }}
+      </doc-markup>
 
       <!-- Snippet -->
       <doc-markup
@@ -80,7 +85,9 @@
         :filename="false"
         lang="ts"
         value="example"
-      >{{ item.example }}</doc-markup>
+      >
+        {{ item.example }}
+      </doc-markup>
 
       <!-- Props -->
       <doc-markup
@@ -88,7 +95,9 @@
         :filename="false"
         lang="ts"
         value="example"
-      >{{ item.props }}</doc-markup>
+      >
+        {{ item.props }}
+      </doc-markup>
 
       <!-- Value -->
       <doc-markup
@@ -96,9 +105,11 @@
         :filename="false"
         lang="ts"
         value="example"
-      >{{ item.value }}</doc-markup>
-    </v-flex>
-  </v-layout>
+      >
+        {{ item.value }}
+      </doc-markup>
+    </v-col>
+  </v-row>
 </template>
 
 <script>

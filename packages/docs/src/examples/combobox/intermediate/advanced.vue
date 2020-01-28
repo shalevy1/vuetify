@@ -39,7 +39,9 @@
           <v-icon
             small
             @click="parent.selectItem(item)"
-          >close</v-icon>
+          >
+            close
+          </v-icon>
         </v-chip>
       </template>
       <template v-slot:item="{ index, item }">

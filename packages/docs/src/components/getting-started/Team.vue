@@ -1,19 +1,18 @@
 <template>
-  <v-container grid-list-xl>
-    <v-layout
-      justify-center
-      wrap
+  <v-container>
+    <v-row
+      justify="center"
     >
-      <v-flex
+      <v-col
         v-for="(member, i) in team"
         :key="i"
-        xs12
-        sm6
-        md4
+        cols="12"
+        sm="6"
+        md="4"
       >
         <getting-started-member :value="member" />
-      </v-flex>
-    </v-layout>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 

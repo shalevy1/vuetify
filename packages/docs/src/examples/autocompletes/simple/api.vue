@@ -33,7 +33,10 @@
     </v-card-text>
     <v-divider></v-divider>
     <v-expand-transition>
-      <v-list v-if="model" class="red lighten-3">
+      <v-list
+        v-if="model"
+        class="red lighten-3"
+      >
         <v-list-item
           v-for="(field, i) in fields"
           :key="i"
@@ -53,7 +56,9 @@
         @click="model = null"
       >
         Clear
-        <v-icon right>mdi-close-circle</v-icon>
+        <v-icon right>
+          mdi-close-circle
+        </v-icon>
       </v-btn>
     </v-card-actions>
   </v-card>

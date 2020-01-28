@@ -32,7 +32,9 @@
             dark
           >
             <v-list-item-content>
-              <v-list-item-title class="title">Marcus Obrien</v-list-item-title>
+              <v-list-item-title class="title">
+                Marcus Obrien
+              </v-list-item-title>
               <v-list-item-subtitle>Network Engineer</v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>

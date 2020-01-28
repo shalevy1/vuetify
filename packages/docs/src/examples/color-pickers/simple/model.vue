@@ -11,7 +11,9 @@
           class="my-4"
           block
           @click="type = t"
-        >{{ t }}</v-btn>
+        >
+          {{ t }}
+        </v-btn>
       </v-col>
       <v-col
         class="d-flex justify-center"

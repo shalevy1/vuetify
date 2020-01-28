@@ -20,9 +20,15 @@
           v-model="tabs"
           align-with-title
         >
-          <v-tab href="#one">Item One</v-tab>
-          <v-tab href="#two">Item Two</v-tab>
-          <v-tab href="#three">Item Three</v-tab>
+          <v-tab href="#one">
+            Item One
+          </v-tab>
+          <v-tab href="#two">
+            Item Two
+          </v-tab>
+          <v-tab href="#three">
+            Item Three
+          </v-tab>
           <v-tabs-slider color="pink"></v-tabs-slider>
         </v-tabs>
       </template>

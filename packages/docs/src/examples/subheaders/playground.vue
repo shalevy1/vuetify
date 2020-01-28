@@ -10,7 +10,9 @@
         sm="4"
       >
         <v-card>
-          <v-subheader :inset="inset">Subheader</v-subheader>
+          <v-subheader :inset="inset">
+            Subheader
+          </v-subheader>
 
           <v-list>
             <template v-for="(item, index) in items">

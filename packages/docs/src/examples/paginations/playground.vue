@@ -1,15 +1,32 @@
 <template>
   <div class="text-center">
-    <v-row justify="center" align="center">
+    <v-row
+      justify="center"
+      align="center"
+    >
       <v-col cols="12">
-        <v-radio-group row wrap>
-          <v-switch v-model="circle" label="Toggle circle" class="mx-4"></v-switch>
-          <v-switch v-model="disabled" label="Toggle disabled" class="mx-4"></v-switch>
+        <v-radio-group
+          row
+          wrap
+        >
+          <v-switch
+            v-model="circle"
+            label="Toggle circle"
+            class="mx-4"
+          ></v-switch>
+          <v-switch
+            v-model="disabled"
+            label="Toggle disabled"
+            class="mx-4"
+          ></v-switch>
         </v-radio-group>
       </v-col>
 
       <v-row>
-        <v-col cols="12" md="3">
+        <v-col
+          cols="12"
+          md="3"
+        >
           <v-select
             v-model="prevIcon"
             class="mx-4"
@@ -18,7 +35,10 @@
           ></v-select>
         </v-col>
 
-        <v-col cols="12" md="3">
+        <v-col
+          cols="12"
+          md="3"
+        >
           <v-select
             v-model="nextIcon"
             class="mx-4"
@@ -27,7 +47,10 @@
           ></v-select>
         </v-col>
 
-        <v-col cols="12" md="3">
+        <v-col
+          cols="12"
+          md="3"
+        >
           <v-text-field
             v-model="length"
             label="Pagination length"
@@ -40,7 +63,10 @@
           ></v-text-field>
         </v-col>
 
-        <v-col cols="12" md="3">
+        <v-col
+          cols="12"
+          md="3"
+        >
           <v-text-field
             v-model="totalVisible"
             label="Total visible"

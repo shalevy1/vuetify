@@ -5,11 +5,20 @@
     :elevation="attrs.flat ? undefined : attrs.elevation"
     :dark="attrs.image"
   >
-    <template v-if="attrs.extended" #extension>
+    <template
+      v-if="attrs.extended"
+      #extension
+    >
       <v-toolbar-items>
-        <v-btn text>Link 1</v-btn>
-        <v-btn text>Link 2</v-btn>
-        <v-btn text>Link 3</v-btn>
+        <v-btn text>
+          Link 1
+        </v-btn>
+        <v-btn text>
+          Link 2
+        </v-btn>
+        <v-btn text>
+          Link 3
+        </v-btn>
       </v-toolbar-items>
     </template>
 

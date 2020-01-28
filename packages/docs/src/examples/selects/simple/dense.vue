@@ -1,7 +1,11 @@
 <template>
   <v-container fluid>
     <v-row align="center">
-      <v-col class="d-flex" cols="12" sm="6">
+      <v-col
+        class="d-flex"
+        cols="12"
+        sm="6"
+      >
         <v-select
           :items="items"
           label="Standard"
@@ -9,7 +13,11 @@
         ></v-select>
       </v-col>
 
-      <v-col class="d-flex" cols="12" sm="6">
+      <v-col
+        class="d-flex"
+        cols="12"
+        sm="6"
+      >
         <v-select
           :items="items"
           filled
@@ -18,7 +26,11 @@
         ></v-select>
       </v-col>
 
-      <v-col class="d-flex" cols="12" sm="6">
+      <v-col
+        class="d-flex"
+        cols="12"
+        sm="6"
+      >
         <v-select
           :items="items"
           label="Outlined style"
@@ -27,7 +39,11 @@
         ></v-select>
       </v-col>
 
-      <v-col class="d-flex" cols="12" sm="6">
+      <v-col
+        class="d-flex"
+        cols="12"
+        sm="6"
+      >
         <v-select
           :items="items"
           label="Solo field"

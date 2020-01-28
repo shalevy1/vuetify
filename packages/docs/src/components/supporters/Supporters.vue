@@ -1,9 +1,8 @@
 <template>
   <v-container
+    class="pa-0"
     fluid
-    pa-0
   >
-
     <supporters-sub-github />
 
     <supporters-sub-open-collective />
@@ -12,13 +11,13 @@
 
     <supporters-sub-paypal />
 
-    <v-flex xs12>
+    <v-col cols="12">
       <base-heading>sponsors</base-heading>
-    </v-flex>
+    </v-col>
 
-    <v-flex
-      xs12
-      my-2
+    <v-col
+      class="my-2"
+      cols="12"
       tag="v-divider"
     />
 

@@ -1,8 +1,7 @@
 <template>
-  <v-layout
-    align-center
-    ml-2
-    shrink
+  <v-row
+    class="ml-2 shrink"
+    align="center"
   >
     <iframe
       src="https://ghbtns.com/github-btn.html?user=vuetifyjs&repo=vuetify&type=star&count=true"
@@ -12,5 +11,5 @@
       height="20px"
       title="Star Vuetify on Github"
     />
-  </v-layout>
+  </v-row>
 </template>

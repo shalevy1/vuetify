@@ -12,7 +12,10 @@
       <v-toolbar-title>Settings</v-toolbar-title>
     </v-toolbar>
 
-    <v-list two-line subheader>
+    <v-list
+      two-line
+      subheader
+    >
       <v-subheader>General</v-subheader>
 
       <v-list-item>

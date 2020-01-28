@@ -17,7 +17,9 @@
         <div
           id="bsa-native"
           ref="exit"
-        ><!-- Ad --></div>
+        >
+          <!-- Ad -->
+        </div>
       </v-card>
 
       <ad-card

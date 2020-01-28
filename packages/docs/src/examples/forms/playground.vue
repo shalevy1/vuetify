@@ -1,8 +1,17 @@
 <template>
   <v-row align="center">
     <v-row justify="space-around">
-      <v-switch v-model="valid" class="ma-4" label="Valid" readonly></v-switch>
-      <v-switch v-model="lazy" class="ma-4" label="Lazy"></v-switch>
+      <v-switch
+        v-model="valid"
+        class="ma-4"
+        label="Valid"
+        readonly
+      ></v-switch>
+      <v-switch
+        v-model="lazy"
+        class="ma-4"
+        label="Lazy"
+      ></v-switch>
     </v-row>
     <v-form
       ref="form"

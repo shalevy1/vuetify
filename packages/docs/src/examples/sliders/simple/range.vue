@@ -1,5 +1,8 @@
 <template>
-  <v-card flat color="transparent">
+  <v-card
+    flat
+    color="transparent"
+  >
     <v-subheader>Default range slider</v-subheader>
     <v-card-text>
       <v-range-slider

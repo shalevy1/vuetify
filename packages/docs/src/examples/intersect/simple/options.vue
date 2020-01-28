@@ -8,8 +8,14 @@
       ></v-avatar>
     </div>
 
-    <v-responsive class="overflow-y-auto" max-height="400">
-      <v-responsive height="200vh" class="d-flex align-center text-center pa-2">
+    <v-responsive
+      class="overflow-y-auto"
+      max-height="400"
+    >
+      <v-responsive
+        height="200vh"
+        class="d-flex align-center text-center pa-2"
+      >
         <v-card
           v-intersect="{
             handler: onIntersect,

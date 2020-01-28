@@ -1,12 +1,29 @@
 <template>
   <v-row>
-    <v-col cols="12" sm="6" offset-sm="3">
+    <v-col
+      cols="12"
+      sm="6"
+      offset-sm="3"
+    >
       <v-card>
         <v-list two-line>
           <template v-for="(item, index) in items.slice(0, 6)">
-            <v-subheader v-if="item.header" :key="item.header">{{ item.header }}</v-subheader>
-            <v-divider v-else-if="item.divider" :key="index" :inset="item.inset"></v-divider>
-            <v-list-item v-else :key="item.title" @click="">
+            <v-subheader
+              v-if="item.header"
+              :key="item.header"
+            >
+              {{ item.header }}
+            </v-subheader>
+            <v-divider
+              v-else-if="item.divider"
+              :key="index"
+              :inset="item.inset"
+            ></v-divider>
+            <v-list-item
+              v-else
+              :key="item.title"
+              @click=""
+            >
               <v-list-item-avatar>
                 <img :src="item.avatar">
               </v-list-item-avatar>

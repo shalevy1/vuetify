@@ -17,8 +17,14 @@
         cols="12"
         md="6"
       >
-        <v-row class="fill-height" align="center">
-          <v-item-group v-model="gradient" mandatory>
+        <v-row
+          class="fill-height"
+          align="center"
+        >
+          <v-item-group
+            v-model="gradient"
+            mandatory
+          >
             <v-row>
               <v-item
                 v-for="(gradient, i) in gradients"
@@ -60,8 +66,14 @@
       </v-col>
 
       <v-col cols="6">
-        <v-row class="fill-height" align="center">
-          <v-switch v-model="fill" label="Filled"></v-switch>
+        <v-row
+          class="fill-height"
+          align="center"
+        >
+          <v-switch
+            v-model="fill"
+            label="Filled"
+          ></v-switch>
         </v-row>
       </v-col>
 

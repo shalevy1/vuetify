@@ -9,7 +9,9 @@
         justify="center"
       >
         <v-col cols="12">
-          <p class="text-center">Mandatory</p>
+          <p class="text-center">
+            Mandatory
+          </p>
         </v-col>
         <v-btn-toggle
           v-model="toggle_exclusive"

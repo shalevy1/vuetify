@@ -1,7 +1,13 @@
 <template>
   <div class="text-center">
-    <v-switch v-model="closeOnClick" label="Close on click"></v-switch>
-    <v-menu top :close-on-click="closeOnClick">
+    <v-switch
+      v-model="closeOnClick"
+      label="Close on click"
+    ></v-switch>
+    <v-menu
+      top
+      :close-on-click="closeOnClick"
+    >
       <template v-slot:activator="{ on }">
         <v-btn
           color="primary"

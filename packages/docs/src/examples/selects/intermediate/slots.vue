@@ -12,7 +12,9 @@
           @click="toggle"
         >
           <v-list-item-action>
-            <v-icon :color="selectedFruits.length > 0 ? 'indigo darken-4' : ''">{{ icon }}</v-icon>
+            <v-icon :color="selectedFruits.length > 0 ? 'indigo darken-4' : ''">
+              {{ icon }}
+            </v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Select All</v-list-item-title>

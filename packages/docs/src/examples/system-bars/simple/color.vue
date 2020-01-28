@@ -1,6 +1,9 @@
 <template>
   <div>
-    <v-system-bar dark color="primary">
+    <v-system-bar
+      dark
+      color="primary"
+    >
       <v-spacer></v-spacer>
       <v-icon>mdi-wifi-strength-4</v-icon>
       <v-icon>mdi-signal-cellular-outline</v-icon>
@@ -8,7 +11,10 @@
       <span>12:30</span>
     </v-system-bar>
     <br>
-    <v-system-bar dark color="red lighten-2">
+    <v-system-bar
+      dark
+      color="red lighten-2"
+    >
       <v-spacer></v-spacer>
       <v-icon>mdi-wifi-strength-4</v-icon>
       <v-icon>mdi-signal-cellular-outline</v-icon>
@@ -16,7 +22,10 @@
       <span>12:30</span>
     </v-system-bar>
     <br>
-    <v-system-bar dark color="indigo darken-2">
+    <v-system-bar
+      dark
+      color="indigo darken-2"
+    >
       <v-spacer></v-spacer>
       <v-icon>mdi-wifi-strength-4</v-icon>
       <v-icon>mdi-signal-cellular-outline</v-icon>

@@ -5,7 +5,7 @@
     @click.prevent="onClick"
   >
     <v-hover v-model="hover">
-      <v-layout align-center>
+      <v-row align="center">
         <base-markdown v-bind="$attrs"><slot /></base-markdown>
 
         <v-fade-transition hide-on-leave>
@@ -17,7 +17,7 @@
             mdi-pound
           </v-icon>
         </v-fade-transition>
-      </v-layout>
+      </v-row>
     </v-hover>
   </a>
 </template>

@@ -1,21 +1,33 @@
 <template>
   <v-row justify="center">
-    <v-col cols="12" sm="8">
+    <v-col
+      cols="12"
+      sm="8"
+    >
       <v-card>
         <v-card-title class="cyan darken-1">
           <span class="headline white--text">Sarah Mcbeal</span>
 
           <v-spacer></v-spacer>
 
-          <v-btn dark icon>
+          <v-btn
+            dark
+            icon
+          >
             <v-icon>mdi-chevron-left</v-icon>
           </v-btn>
 
-          <v-btn dark icon>
+          <v-btn
+            dark
+            icon
+          >
             <v-icon>mdi-pencil</v-icon>
           </v-btn>
 
-          <v-btn dark icon>
+          <v-btn
+            dark
+            icon
+          >
             <v-icon>mdi-dots-vertical</v-icon>
           </v-btn>
         </v-card-title>
@@ -30,7 +42,6 @@
               <v-list-item-title>(650) 555-1234</v-list-item-title>
             </v-list-item-content>
             <v-list-item-action>
-
               <v-icon>mdi-message-text</v-icon>
             </v-list-item-action>
           </v-list-item>

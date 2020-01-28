@@ -13,7 +13,9 @@
         }"
         :elevation="!hasElevation ? undefined : attrs.elevation"
       >
-        <v-icon v-if="attrs.fab || attrs.icon">mdi-account</v-icon>
+        <v-icon v-if="attrs.fab || attrs.icon">
+          mdi-account
+        </v-icon>
 
         <span v-else>Click Me</span>
       </v-btn>

@@ -1,6 +1,8 @@
 <template>
   <section id="examples">
-    <base-heading id="examples">Generic.Pages.examples</base-heading>
+    <base-heading id="examples">
+      Generic.Pages.examples
+    </base-heading>
 
     <base-markdown>Generic.Pages.examplesText</base-markdown>
 
@@ -9,7 +11,9 @@
       :id="example.id"
       :key="i"
     >
-      <base-heading :id="example.id">{{ example.heading }}</base-heading>
+      <base-heading :id="example.id">
+        {{ example.heading }}
+      </base-heading>
 
       <doc-text>{{ example.desc }}</doc-text>
 

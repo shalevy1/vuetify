@@ -20,7 +20,10 @@
         <v-list>
           <v-list-item>
             <v-list-item-avatar>
-              <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John">
+              <img
+                src="https://cdn.vuetifyjs.com/images/john.jpg"
+                alt="John"
+              >
             </v-list-item-avatar>
 
             <v-list-item-content>
@@ -45,14 +48,20 @@
         <v-list>
           <v-list-item>
             <v-list-item-action>
-              <v-switch v-model="message" color="purple"></v-switch>
+              <v-switch
+                v-model="message"
+                color="purple"
+              ></v-switch>
             </v-list-item-action>
             <v-list-item-title>Enable messages</v-list-item-title>
           </v-list-item>
 
           <v-list-item>
             <v-list-item-action>
-              <v-switch v-model="hints" color="purple"></v-switch>
+              <v-switch
+                v-model="hints"
+                color="purple"
+              ></v-switch>
             </v-list-item-action>
             <v-list-item-title>Enable hints</v-list-item-title>
           </v-list-item>
@@ -61,8 +70,19 @@
         <v-card-actions>
           <v-spacer></v-spacer>
 
-          <v-btn text @click="menu = false">Cancel</v-btn>
-          <v-btn color="primary" text @click="menu = false">Save</v-btn>
+          <v-btn
+            text
+            @click="menu = false"
+          >
+            Cancel
+          </v-btn>
+          <v-btn
+            color="primary"
+            text
+            @click="menu = false"
+          >
+            Save
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-menu>

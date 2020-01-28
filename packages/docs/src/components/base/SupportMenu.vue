@@ -13,7 +13,9 @@
         style="min-width: 48px"
         v-on="menu"
       >
-        <base-nav-text class="hidden-sm-and-down">Vuetify.AppToolbar.support</base-nav-text>
+        <base-nav-text class="hidden-sm-and-down">
+          Vuetify.AppToolbar.support
+        </base-nav-text>
 
         <v-icon
           class="hidden-sm-and-down"
@@ -22,7 +24,9 @@
           mdi-menu-down
         </v-icon>
 
-        <v-icon class="hidden-md-and-up">mdi-comment-question</v-icon>
+        <v-icon class="hidden-md-and-up">
+          mdi-comment-question
+        </v-icon>
       </v-btn>
     </template>
 

@@ -1,30 +1,31 @@
 <template>
-  <v-layout
+  <v-row
     id="one-time-donation"
+    class="mb-12"
     tag="section"
-    mb-12
-    wrap
   >
-    <v-flex xs12>
-      <base-heading goto="one-time-donation">oneTime</base-heading>
-    </v-flex>
+    <v-col cols="12">
+      <base-heading goto="one-time-donation">
+        oneTime
+      </base-heading>
+    </v-col>
 
-    <v-flex
-      xs12
-      my-2
+    <v-col
+      class="my-2"
+      cols="12"
       tag="v-divider"
     />
 
-    <v-flex
-      xs12
-      mb-4
+    <v-col
+      class="mb-4"
+      cols="12"
     >
       <base-markdown>oneTimeBlurb</base-markdown>
-    </v-flex>
+    </v-col>
 
-    <v-flex
-      xs12
-      text-center
+    <v-col
+      class="text-center"
+      cols="12"
     >
       <a
         aria-label="Support Vuetify through Paypal"
@@ -40,6 +41,6 @@
           width="150"
         />
       </a>
-    </v-flex>
-  </v-layout>
+    </v-col>
+  </v-row>
 </template>

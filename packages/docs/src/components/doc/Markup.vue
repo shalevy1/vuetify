@@ -10,7 +10,9 @@
       :language="language"
       :code="code"
       :inline="inline"
-    ><slot /></prism>
+    >
+      <slot />
+    </prism>
 
     <div
       v-if="filename"

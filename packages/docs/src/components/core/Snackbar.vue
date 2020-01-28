@@ -33,7 +33,9 @@
         >
           {{ snackbar.text }}
 
-          <v-icon right>mdi-open-in-new</v-icon>
+          <v-icon right>
+            mdi-open-in-new
+          </v-icon>
         </v-btn>
 
         <v-btn

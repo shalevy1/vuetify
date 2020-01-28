@@ -1,6 +1,10 @@
 <template>
   <v-row>
-    <v-col cols="12" sm="6" offset-sm="3">
+    <v-col
+      cols="12"
+      sm="6"
+      offset-sm="3"
+    >
       <v-card>
         <v-img
           src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
@@ -9,14 +13,26 @@
 
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
+            <h3 class="headline mb-0">
+              Kangaroo Valley Safari
+            </h3>
             <div> {{ card_text }} </div>
           </div>
         </v-card-title>
 
         <v-card-actions>
-          <v-btn text color="orange">Share</v-btn>
-          <v-btn text color="orange">Explore</v-btn>
+          <v-btn
+            text
+            color="orange"
+          >
+            Share
+          </v-btn>
+          <v-btn
+            text
+            color="orange"
+          >
+            Explore
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-col>

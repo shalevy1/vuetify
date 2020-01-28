@@ -8,70 +8,60 @@
     elevation="16"
   >
     <v-card-text>
-      <v-layout wrap>
-        <v-flex
+      <v-row>
+        <v-col
+          class="d-flex pl-1"
           :style="{ order: $vuetify.breakpoint.xs ? '2' : '1' }"
-          d-flex
-          pl-1
-          xs10
+          cols="10"
         >
-          <v-layout
-            align-center
-            wrap
+          <v-row
+            align="center"
           >
-            <v-flex
-              display-1
-              mr-6
-              support
-              d-flex
-              xs12
-              sm6
+            <v-col
+              class="display-1 mr-6 support d-flex"
+              cols="12"
+              sm="6"
             >
               <v-icon
                 x-large
                 class="mr-3"
-              >mdi-github-circle</v-icon>
+              >
+                mdi-github-circle
+              </v-icon>
               GITHUB
-            </v-flex>
-            <v-flex
-              hidden-xs-only
-              support-bar
-              mr-6
+            </v-col>
+            <v-col
+              class="hidden-xs-only support-bar mr-6"
             />
-            <v-flex
-              hidden-sm-and-up
-              support-bar-horizontal
-              mr-6
+            <v-col
+              class="hidden-sm-and-up support-bar-horizontal mr-6"
             />
-            <v-flex
-              xs12
-              sm6
-              display-1
-              support-caption
+            <v-col
+              class="display-1 support-caption"
+              cols="12"
+              sm="6"
             >
               Sponsor the project
-            </v-flex>
-          </v-layout>
-        </v-flex>
-        <v-flex
+            </v-col>
+          </v-row>
+        </v-col>
+        <v-col
+          class="align-center text-center d-flex"
           :style="{ order: $vuetify.breakpoint.xs ? '1' : '2' }"
-          align-center
-          text-center
-          xs2
-          d-flex
+          cols="2"
         >
-          <v-layout align-center>
-            <v-flex xs12>
+          <v-row align="center">
+            <v-col cols="12">
               <v-img
                 class="logo"
                 src="https://cdn.vuetifyjs.com/images/logos/logo.svg"
                 width="50px"
                 alt="Vuetify Logo"
               />
-            </v-flex>
-          </v-layout>
-        </v-flex>
-      </v-layout>
+            </v-col>
+          </v-row>
+        </v-col>
+      </v-row>
     </v-card-text>
   </v-card>
 </template>

@@ -2,7 +2,9 @@
   <div>
     <div>
       <div class="text-center">
-        <v-btn @click="content = !content">Change Content</v-btn>
+        <v-btn @click="content = !content">
+          Change Content
+        </v-btn>
       </div>
 
       <v-container>

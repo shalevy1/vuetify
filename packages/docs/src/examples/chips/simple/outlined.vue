@@ -5,7 +5,9 @@
       color="success"
       outlined
     >
-      <v-icon left>mdi-server-plus</v-icon>
+      <v-icon left>
+        mdi-server-plus
+      </v-icon>
       Server Status
     </v-chip>
 
@@ -16,7 +18,9 @@
       pill
     >
       User Account
-      <v-icon right>mdi-account-outline</v-icon>
+      <v-icon right>
+        mdi-account-outline
+      </v-icon>
     </v-chip>
 
     <v-chip
@@ -24,7 +28,9 @@
       color="deep-purple accent-4"
       outlined
     >
-      <v-icon left>mdi-wrench</v-icon>
+      <v-icon left>
+        mdi-wrench
+      </v-icon>
       Update Settings
     </v-chip>
 
@@ -34,7 +40,9 @@
       color="indigo darken-3"
       outlined
     >
-      <v-icon left>mdi-fire</v-icon>
+      <v-icon left>
+        mdi-fire
+      </v-icon>
       New Posts Available
     </v-chip>
   </div>

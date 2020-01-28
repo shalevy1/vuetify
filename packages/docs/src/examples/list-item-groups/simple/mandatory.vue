@@ -4,7 +4,11 @@
     max-width="400"
   >
     <v-list>
-      <v-list-item-group v-model="model" mandatory color="indigo">
+      <v-list-item-group
+        v-model="model"
+        mandatory
+        color="indigo"
+      >
         <v-list-item
           v-for="(item, i) in items"
           :key="i"

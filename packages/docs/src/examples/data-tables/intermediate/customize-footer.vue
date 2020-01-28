@@ -1,7 +1,13 @@
 <template>
   <div>
-    <v-switch v-model="showFirstLastPage" label="Show first/last page icons"></v-switch>
-    <v-switch v-model="showCurrentPage" label="Show current page"></v-switch>
+    <v-switch
+      v-model="showFirstLastPage"
+      label="Show first/last page icons"
+    ></v-switch>
+    <v-switch
+      v-model="showCurrentPage"
+      label="Show current page"
+    ></v-switch>
     <v-data-table
       :headers="headers"
       :items="desserts"

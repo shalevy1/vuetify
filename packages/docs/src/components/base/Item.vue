@@ -28,7 +28,9 @@
           v-text="text"
         />
 
-        <base-markdown v-else>{{ text }}</base-markdown>
+        <base-markdown v-else>
+          {{ text }}
+        </base-markdown>
       </v-list-item-title>
 
       <v-list-item-subtitle v-if="subtext">
@@ -37,7 +39,9 @@
           v-text="subtext"
         />
 
-        <base-markdown v-else>{{ subtext }}</base-markdown>
+        <base-markdown v-else>
+          {{ subtext }}
+        </base-markdown>
       </v-list-item-subtitle>
     </v-list-item-content>
 

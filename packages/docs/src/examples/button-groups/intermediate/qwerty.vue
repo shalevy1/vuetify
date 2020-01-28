@@ -36,7 +36,9 @@
             class="flex-column"
             justify="center"
           >
-            <v-icon class="cols 12">mdi-format-color-text</v-icon>
+            <v-icon class="cols 12">
+              mdi-format-color-text
+            </v-icon>
 
             <v-sheet
               tile

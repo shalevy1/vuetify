@@ -8,7 +8,9 @@
               color="primary"
               dark
               v-on="{ ...tooltip, ...menu }"
-            >Dropdown w/ Tooltip</v-btn>
+            >
+              Dropdown w/ Tooltip
+            </v-btn>
           </template>
           <span>Im A ToolTip</span>
         </v-tooltip>

@@ -41,7 +41,10 @@
           </v-chip>
         </v-col>
 
-        <v-col v-if="!allSelected" cols="12">
+        <v-col
+          v-if="!allSelected"
+          cols="12"
+        >
           <v-text-field
             ref="search"
             v-model="search"
@@ -85,7 +88,9 @@
         color="purple"
         text
         @click="next"
-      >Next</v-btn>
+      >
+        Next
+      </v-btn>
     </v-card-actions>
   </v-card>
 </template>

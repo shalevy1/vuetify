@@ -1,9 +1,13 @@
 <template>
   <v-container class="fill-height">
     <v-row justify="center">
-      <v-icon @click="model--">mdi-minus</v-icon>
+      <v-icon @click="model--">
+        mdi-minus
+      </v-icon>
       {{ model }}
-      <v-icon @click="model++">mdi-plus</v-icon>
+      <v-icon @click="model++">
+        mdi-plus
+      </v-icon>
     </v-row>
     <v-row
       align="center"
@@ -27,7 +31,9 @@
               align="center"
               justify="center"
             >
-              <div class="display-3">Slide {{ i + 1 }}</div>
+              <div class="display-3">
+                Slide {{ i + 1 }}
+              </div>
             </v-row>
           </v-sheet>
         </v-carousel-item>

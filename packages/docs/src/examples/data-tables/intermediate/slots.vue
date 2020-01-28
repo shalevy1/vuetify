@@ -1,6 +1,11 @@
 <template>
   <div>
-    <v-select v-model="enabled" :items="slots" label="Slot" clearable></v-select>
+    <v-select
+      v-model="enabled"
+      :items="slots"
+      label="Slot"
+      clearable
+    ></v-select>
     <v-data-table
       :headers="headers"
       :items="items"
@@ -12,15 +17,28 @@
       item-key="name"
       class="elevation-1"
     >
-      <template v-if="isEnabled('top')" v-slot:top>
+      <template
+        v-if="isEnabled('top')"
+        v-slot:top
+      >
         <div>This is content above the actual table</div>
       </template>
 
-      <template v-if="isEnabled('header.data-table-select')" v-slot:header.data-table-select="{ on, props }">
-        <v-simple-checkbox color="purple" v-bind="props" v-on="on"></v-simple-checkbox>
+      <template
+        v-if="isEnabled('header.data-table-select')"
+        v-slot:header.data-table-select="{ on, props }"
+      >
+        <v-simple-checkbox
+          color="purple"
+          v-bind="props"
+          v-on="on"
+        ></v-simple-checkbox>
       </template>
 
-      <template v-if="isEnabled('header')" v-slot:header="{ props: { headers } }">
+      <template
+        v-if="isEnabled('header')"
+        v-slot:header="{ props: { headers } }"
+      >
         <thead>
           <tr>
             <th :colspan="headers.length">
@@ -30,19 +48,39 @@
         </thead>
       </template>
 
-      <template v-if="isEnabled('progress')" v-slot:progress>
-        <v-progress-linear color="purple" :height="10" indeterminate></v-progress-linear>
+      <template
+        v-if="isEnabled('progress')"
+        v-slot:progress
+      >
+        <v-progress-linear
+          color="purple"
+          :height="10"
+          indeterminate
+        ></v-progress-linear>
       </template>
 
-      <template v-if="isEnabled('item.data-table-select')" v-slot:item.data-table-select="{ isSelected, select }">
-        <v-simple-checkbox color="green" :value="isSelected" @input="select($event)"></v-simple-checkbox>
+      <template
+        v-if="isEnabled('item.data-table-select')"
+        v-slot:item.data-table-select="{ isSelected, select }"
+      >
+        <v-simple-checkbox
+          color="green"
+          :value="isSelected"
+          @input="select($event)"
+        ></v-simple-checkbox>
       </template>
 
-      <template v-if="isEnabled('item.<name>')" v-slot:item.name="{ item }">
+      <template
+        v-if="isEnabled('item.<name>')"
+        v-slot:item.name="{ item }"
+      >
         {{ item.name.toUpperCase() }}
       </template>
 
-      <template v-if="isEnabled('body.prepend')" v-slot:body.prepend="{ headers }">
+      <template
+        v-if="isEnabled('body.prepend')"
+        v-slot:body.prepend="{ headers }"
+      >
         <tr>
           <td :colspan="headers.length">
             This is a prepended row
@@ -50,9 +88,15 @@
         </tr>
       </template>
 
-      <template v-if="isEnabled('body')" v-slot:body="{ items }">
+      <template
+        v-if="isEnabled('body')"
+        v-slot:body="{ items }"
+      >
         <tbody>
-          <tr v-for="item in items" :key="item.name">
+          <tr
+            v-for="item in items"
+            :key="item.name"
+          >
             <td>{{ item.name }}</td>
             <td>CONTENT</td>
             <td>CONTENT</td>
@@ -63,15 +107,24 @@
         </tbody>
       </template>
 
-      <template v-if="isEnabled('no-data')" v-slot:no-data>
+      <template
+        v-if="isEnabled('no-data')"
+        v-slot:no-data
+      >
         NO DATA HERE!
       </template>
 
-      <template v-if="isEnabled('no-results')" v-slot:no-results>
+      <template
+        v-if="isEnabled('no-results')"
+        v-slot:no-results
+      >
         NO RESULTS HERE!
       </template>
 
-      <template v-if="isEnabled('body.append')" v-slot:body.append="{ headers }">
+      <template
+        v-if="isEnabled('body.append')"
+        v-slot:body.append="{ headers }"
+      >
         <tr>
           <td :colspan="headers.length">
             This is an appended row
@@ -79,7 +132,10 @@
         </tr>
       </template>
 
-      <template v-if="isEnabled('footer')" v-slot:footer>
+      <template
+        v-if="isEnabled('footer')"
+        v-slot:footer
+      >
         <div>
           This is a footer
         </div>

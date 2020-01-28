@@ -1,10 +1,20 @@
 <template>
   <v-row>
-    <v-col cols="12" sm="6" offset-sm="3">
+    <v-col
+      cols="12"
+      sm="6"
+      offset-sm="3"
+    >
       <v-card>
-        <v-toolbar color="light-blue" light extended>
+        <v-toolbar
+          color="light-blue"
+          light
+          extended
+        >
           <v-app-bar-nav-icon></v-app-bar-nav-icon>
-          <v-toolbar-title class="white--text">My files</v-toolbar-title>
+          <v-toolbar-title class="white--text">
+            My files
+          </v-toolbar-title>
           <v-spacer></v-spacer>
           <v-btn icon>
             <v-icon>mdi-magnify</v-icon>
@@ -25,12 +35,23 @@
             </v-btn>
           </template>
         </v-toolbar>
-        <v-list two-line subheader>
-          <v-subheader inset>Folders</v-subheader>
+        <v-list
+          two-line
+          subheader
+        >
+          <v-subheader inset>
+            Folders
+          </v-subheader>
 
-          <v-list-item v-for="item in items" :key="item.title" link>
+          <v-list-item
+            v-for="item in items"
+            :key="item.title"
+            link
+          >
             <v-list-item-avatar>
-              <v-icon :class="[item.iconClass]">{{ item.icon }}</v-icon>
+              <v-icon :class="[item.iconClass]">
+                {{ item.icon }}
+              </v-icon>
             </v-list-item-avatar>
 
             <v-list-item-content>
@@ -41,18 +62,28 @@
 
             <v-list-item-action>
               <v-btn icon>
-                <v-icon color="grey lighten-1">mdi-information</v-icon>
+                <v-icon color="grey lighten-1">
+                  mdi-information
+                </v-icon>
               </v-btn>
             </v-list-item-action>
           </v-list-item>
 
           <v-divider inset></v-divider>
 
-          <v-subheader inset>Files</v-subheader>
+          <v-subheader inset>
+            Files
+          </v-subheader>
 
-          <v-list-item v-for="item in items2" :key="item.title" link>
+          <v-list-item
+            v-for="item in items2"
+            :key="item.title"
+            link
+          >
             <v-list-item-avatar>
-              <v-icon :class="[item.iconClass]">{{ item.icon }}</v-icon>
+              <v-icon :class="[item.iconClass]">
+                {{ item.icon }}
+              </v-icon>
             </v-list-item-avatar>
 
             <v-list-item-content>
@@ -62,14 +93,22 @@
             </v-list-item-content>
 
             <v-list-item-action>
-              <v-btn icon ripple>
-                <v-icon color="grey lighten-1">mdi-information</v-icon>
+              <v-btn
+                icon
+                ripple
+              >
+                <v-icon color="grey lighten-1">
+                  mdi-information
+                </v-icon>
               </v-btn>
             </v-list-item-action>
           </v-list-item>
         </v-list>
 
-        <v-dialog v-model="dialog" max-width="500px">
+        <v-dialog
+          v-model="dialog"
+          max-width="500px"
+        >
           <v-card>
             <v-card-text>
               <v-text-field label="File name"></v-text-field>
@@ -80,7 +119,13 @@
             <v-card-actions>
               <v-spacer></v-spacer>
 
-              <v-btn text color="primary" @click="dialog = false">Submit</v-btn>
+              <v-btn
+                text
+                color="primary"
+                @click="dialog = false"
+              >
+                Submit
+              </v-btn>
             </v-card-actions>
           </v-card>
         </v-dialog>

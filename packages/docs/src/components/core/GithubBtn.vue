@@ -9,7 +9,9 @@
     target="_blank"
     title="Support Vuetify through Github"
   >
-    <v-icon left>mdi-github-circle</v-icon>
+    <v-icon left>
+      mdi-github-circle
+    </v-icon>
     <span
       class="font-weight-black"
       v-text="`Become a Sponsor`"

@@ -36,9 +36,13 @@
         >
           <v-img src="https://cdn.vuetifyjs.com/images/john.png" />
         </v-avatar>
-        <div class="body-1">John Leider</div>
+        <div class="body-1">
+          John Leider
+        </div>
 
-        <div class="caption grey--text">Creator</div>
+        <div class="caption grey--text">
+          Creator
+        </div>
       </div>
     </v-col>
 

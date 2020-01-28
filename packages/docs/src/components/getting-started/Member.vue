@@ -18,21 +18,19 @@
             style="position: absolute; top: 0; left: 0;"
             width="100%"
           >
-            <v-layout
+            <v-row
               v-show="hover"
-              fill-height
-              align-center
-              justify-center
-              ma-0
-              wrap
+              class="fill-height ma-0"
+              align="center"
+              justify="center"
             >
-              <v-flex
-                xs12
-                pb-0
+              <v-col
+                class="pb-0"
+                cols="12"
               >
                 <base-markdown>{{ value.title }}</base-markdown>
-              </v-flex>
-              <v-flex>
+              </v-col>
+              <v-col>
                 <a
                   v-if="value.email"
                   :aria-label="`${value.name}'s Email`"
@@ -88,8 +86,8 @@
                 >
                   <v-icon>mdi-patreon</v-icon>
                 </a>
-              </v-flex>
-            </v-layout>
+              </v-col>
+            </v-row>
           </v-sheet>
         </v-img>
       </v-hover>

@@ -30,19 +30,31 @@
         group
         multiple
       >
-        <v-btn :value="1" text>
+        <v-btn
+          :value="1"
+          text
+        >
           <v-icon>mdi-format-bold</v-icon>
         </v-btn>
 
-        <v-btn :value="2" text>
+        <v-btn
+          :value="2"
+          text
+        >
           <v-icon>mdi-format-italic</v-icon>
         </v-btn>
 
-        <v-btn :value="3" text>
+        <v-btn
+          :value="3"
+          text
+        >
           <v-icon>mdi-format-underline</v-icon>
         </v-btn>
 
-        <v-btn :value="4" text>
+        <v-btn
+          :value="4"
+          text
+        >
           <v-icon>mdi-format-color-fill</v-icon>
         </v-btn>
       </v-btn-toggle>
@@ -55,19 +67,31 @@
         dense
         group
       >
-        <v-btn :value="1" text>
+        <v-btn
+          :value="1"
+          text
+        >
           <v-icon>mdi-format-align-left</v-icon>
         </v-btn>
 
-        <v-btn :value="2" text>
+        <v-btn
+          :value="2"
+          text
+        >
           <v-icon>mdi-format-align-center</v-icon>
         </v-btn>
 
-        <v-btn :value="3" text>
+        <v-btn
+          :value="3"
+          text
+        >
           <v-icon>mdi-format-align-right</v-icon>
         </v-btn>
 
-        <v-btn :value="4" text>
+        <v-btn
+          :value="4"
+          text
+        >
           <v-icon>mdi-format-align-justify</v-icon>
         </v-btn>
       </v-btn-toggle>

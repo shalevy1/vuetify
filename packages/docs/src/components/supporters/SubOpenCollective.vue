@@ -1,32 +1,31 @@
 <template>
-  <v-layout
+  <v-row
     id="open-collective"
-    mb-12
+    class="mb-12"
     tag="section"
-    wrap
   >
-    <v-flex xs12>
+    <v-col cols="12">
       <base-heading>openCollective</base-heading>
-    </v-flex>
+    </v-col>
 
-    <v-flex
-      xs12
-      my-2
+    <v-col
+      class="my-2"
+      cols="12"
       tag="v-divider"
     />
 
-    <v-flex
-      xs12
-      mb-4
+    <v-col
+      class="mb-4"
+      cols="12"
     >
       <base-markdown>openCollectiveBlurb</base-markdown>
-    </v-flex>
+    </v-col>
 
-    <v-flex
-      xs12
-      text-center
+    <v-col
+      class="text-center"
+      cols="12"
     >
       <core-open-collective-btn />
-    </v-flex>
-  </v-layout>
+    </v-col>
+  </v-row>
 </template>

@@ -113,7 +113,8 @@
           <v-img
             src="https://cdn.vuetifyjs.com/images/logos/logo.svg"
             alt="Vuetify"
-          /></v-avatar>
+          />
+        </v-avatar>
       </v-btn>
     </v-app-bar>
     <v-content>
@@ -134,7 +135,9 @@
                 target="_blank"
                 v-on="on"
               >
-                <v-icon large>mdi-code-tags</v-icon>
+                <v-icon large>
+                  mdi-code-tags
+                </v-icon>
               </v-btn>
             </template>
             <span>Source</span>
@@ -148,7 +151,9 @@
                 target="_blank"
                 v-on="on"
               >
-                <v-icon large>mdi-codepen</v-icon>
+                <v-icon large>
+                  mdi-codepen
+                </v-icon>
               </v-btn>
             </template>
             <span>Codepen</span>
@@ -235,17 +240,23 @@
           <v-btn
             text
             color="primary"
-          >More</v-btn>
+          >
+            More
+          </v-btn>
           <v-spacer />
           <v-btn
             text
             color="primary"
             @click="dialog = false"
-          >Cancel</v-btn>
+          >
+            Cancel
+          </v-btn>
           <v-btn
             text
             @click="dialog = false"
-          >Save</v-btn>
+          >
+            Save
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>

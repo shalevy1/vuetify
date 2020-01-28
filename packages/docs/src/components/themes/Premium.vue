@@ -23,7 +23,8 @@
           />
 
           <v-card-title class="align-center">
-            <h2 class="headline mb-0">{{ template.title }}
+            <h2 class="headline mb-0">
+              {{ template.title }}
               <v-chip
                 :color="template.free ? 'blue-grey' : 'indigo'"
                 class="text-uppercase"
@@ -74,7 +75,9 @@
                       aria-label="View Demo"
                       v-on="{ ...tooltip, ...menu }"
                     >
-                      <v-icon color="primary">mdi-eye</v-icon>
+                      <v-icon color="primary">
+                        mdi-eye
+                      </v-icon>
                     </v-btn>
                   </template>
                   <span v-text="$t('Themes.Premium.viewDemo')" />

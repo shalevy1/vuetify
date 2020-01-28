@@ -96,7 +96,7 @@
     },
 
     mounted () {
-      fetch(`https://api.github.com/repos/vuetifyjs/vuetify/releases?per_page=100`, {
+      fetch('https://api.github.com/repos/vuetifyjs/vuetify/releases?per_page=100', {
         method: 'get',
         headers: { 'Content-Type': 'application/json' },
       })

@@ -1,5 +1,8 @@
 <template>
-  <v-row align="center" justify="center">
+  <v-row
+    align="center"
+    justify="center"
+  >
     <v-img
       src="https://bad.src/not/valid"
       lazy-src="https://picsum.photos/id/11/100/60"
@@ -14,7 +17,10 @@
           align="center"
           justify="center"
         >
-          <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+          <v-progress-circular
+            indeterminate
+            color="grey lighten-5"
+          ></v-progress-circular>
         </v-row>
       </template>
     </v-img>

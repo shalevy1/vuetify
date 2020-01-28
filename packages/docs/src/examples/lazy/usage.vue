@@ -12,7 +12,9 @@
       class="text-center pa-2"
     >
       <v-responsive min-height="50vh"></v-responsive>
-      <div class="text-center body-2 mb-12">The card will appear below:</div>
+      <div class="text-center body-2 mb-12">
+        The card will appear below:
+      </div>
 
       <v-lazy
         v-model="isActive"

@@ -33,7 +33,10 @@
             <template v-slot:default="{ active, toggle }">
               <v-list-item-content>
                 <v-list-item-title v-text="item.title"></v-list-item-title>
-                <v-list-item-subtitle class="text--primary" v-text="item.headline"></v-list-item-subtitle>
+                <v-list-item-subtitle
+                  class="text--primary"
+                  v-text="item.headline"
+                ></v-list-item-subtitle>
                 <v-list-item-subtitle v-text="item.subtitle"></v-list-item-subtitle>
               </v-list-item-content>
 

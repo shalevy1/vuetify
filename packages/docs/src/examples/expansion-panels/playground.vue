@@ -1,16 +1,56 @@
 <template>
   <v-row align="center">
     <v-row justify="space-around">
-      <v-switch v-model="accordion" class="ma-2" label="Accordion"></v-switch>
-      <v-switch v-model="popout" class="ma-2" label="Popout"></v-switch>
-      <v-switch v-model="inset" class="ma-2" label="Inset"></v-switch>
-      <v-switch v-model="multiple" class="ma-2" label="Multiple"></v-switch>
-      <v-switch v-model="disabled" class="ma-2" label="Disabled"></v-switch>
-      <v-switch v-model="readonly" class="ma-2" label="Readonly"></v-switch>
-      <v-switch v-model="focusable" class="ma-2" label="Focusable"></v-switch>
-      <v-switch v-model="flat" class="ma-2" label="Flat"></v-switch>
-      <v-switch v-model="hover" class="ma-2" label="Hover"></v-switch>
-      <v-switch v-model="tile" class="ma-2" label="Tile"></v-switch>
+      <v-switch
+        v-model="accordion"
+        class="ma-2"
+        label="Accordion"
+      ></v-switch>
+      <v-switch
+        v-model="popout"
+        class="ma-2"
+        label="Popout"
+      ></v-switch>
+      <v-switch
+        v-model="inset"
+        class="ma-2"
+        label="Inset"
+      ></v-switch>
+      <v-switch
+        v-model="multiple"
+        class="ma-2"
+        label="Multiple"
+      ></v-switch>
+      <v-switch
+        v-model="disabled"
+        class="ma-2"
+        label="Disabled"
+      ></v-switch>
+      <v-switch
+        v-model="readonly"
+        class="ma-2"
+        label="Readonly"
+      ></v-switch>
+      <v-switch
+        v-model="focusable"
+        class="ma-2"
+        label="Focusable"
+      ></v-switch>
+      <v-switch
+        v-model="flat"
+        class="ma-2"
+        label="Flat"
+      ></v-switch>
+      <v-switch
+        v-model="hover"
+        class="ma-2"
+        label="Hover"
+      ></v-switch>
+      <v-switch
+        v-model="tile"
+        class="ma-2"
+        label="Tile"
+      ></v-switch>
     </v-row>
 
     <v-expansion-panels

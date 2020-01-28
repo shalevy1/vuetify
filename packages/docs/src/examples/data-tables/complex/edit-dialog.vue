@@ -11,7 +11,8 @@
           @cancel="cancel"
           @open="open"
           @close="close"
-        > {{ props.item.name }}
+        >
+          {{ props.item.name }}
           <template v-slot:input>
             <v-text-field
               v-model="props.item.name"
@@ -35,7 +36,9 @@
         >
           <div>{{ props.item.iron }}</div>
           <template v-slot:input>
-            <div class="mt-4 title">Update Iron</div>
+            <div class="mt-4 title">
+              Update Iron
+            </div>
           </template>
           <template v-slot:input>
             <v-text-field
@@ -51,9 +54,18 @@
       </template>
     </v-data-table>
 
-    <v-snackbar v-model="snack" :timeout="3000" :color="snackColor">
+    <v-snackbar
+      v-model="snack"
+      :timeout="3000"
+      :color="snackColor"
+    >
       {{ snackText }}
-      <v-btn text @click="snack = false">Close</v-btn>
+      <v-btn
+        text
+        @click="snack = false"
+      >
+        Close
+      </v-btn>
     </v-snackbar>
   </div>
 </template>

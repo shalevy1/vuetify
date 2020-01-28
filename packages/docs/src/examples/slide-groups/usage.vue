@@ -3,7 +3,10 @@
     class="mx-auto"
     max-width="700"
   >
-    <v-slide-group multiple show-arrows>
+    <v-slide-group
+      multiple
+      show-arrows
+    >
       <v-slide-item
         v-for="n in 25"
         :key="n"

@@ -14,7 +14,10 @@
         <v-banner v-bind="$_attrs">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam necessitatibus possimus
 
-          <template v-if="attrs.action" v-slot:actions>
+          <template
+            v-if="attrs.action"
+            v-slot:actions
+          >
             <v-btn
               color="deep-purple accent-4"
               text

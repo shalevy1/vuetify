@@ -1,5 +1,8 @@
 <template>
-  <v-row justify="space-around" align="center">
+  <v-row
+    justify="space-around"
+    align="center"
+  >
     <v-chip
       class="ma-2"
       :input-value="active"
@@ -26,7 +29,10 @@
       I'm v-chip
     </v-chip>
 
-    <v-switch v-model="active" label="Active"></v-switch>
+    <v-switch
+      v-model="active"
+      label="Active"
+    ></v-switch>
   </v-row>
 </template>
 

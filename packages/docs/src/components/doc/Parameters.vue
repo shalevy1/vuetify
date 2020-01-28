@@ -194,7 +194,7 @@
           devPrepend = `**COMPONENT NESTED (${item.source})** - `
         } else if (this.$te(selfDesc, 'en')) {
           description = this.$t(selfDesc)
-          devPrepend = `**SELF** - `
+          devPrepend = '**SELF** - '
         } else if (this.$te(mixinDesc, 'en')) {
           description = this.$t(mixinDesc)
           devPrepend = `**MIXIN (${item.source})** - `

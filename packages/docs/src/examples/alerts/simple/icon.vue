@@ -7,7 +7,6 @@
       dense
     >
       Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Vivamus quis mi. Quisque ut nisi. Maecenas malesuada.
-
     </v-alert>
     <v-alert
       color="#C51162"

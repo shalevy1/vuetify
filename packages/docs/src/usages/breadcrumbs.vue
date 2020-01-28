@@ -4,8 +4,14 @@
       align="center"
       justify="center"
     >
-      <v-breadcrumbs :items="items" v-bind="attrs">
-        <template v-if="attrs.customDivider" v-slot:divider>
+      <v-breadcrumbs
+        :items="items"
+        v-bind="attrs"
+      >
+        <template
+          v-if="attrs.customDivider"
+          v-slot:divider
+        >
           <v-icon>mdi-chevron-right</v-icon>
         </template>
       </v-breadcrumbs>

@@ -2,7 +2,10 @@
   <div>
     <v-breadcrumbs :items="items"></v-breadcrumbs>
 
-    <v-breadcrumbs :items="items" large></v-breadcrumbs>
+    <v-breadcrumbs
+      :items="items"
+      large
+    ></v-breadcrumbs>
   </div>
 </template>
 

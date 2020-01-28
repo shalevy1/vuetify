@@ -52,7 +52,9 @@
       </v-col>
 
       <v-col cols="12">
-        <h3 class="headline">Options</h3>
+        <h3 class="headline">
+          Options
+        </h3>
 
         <v-select
           v-model="easing"

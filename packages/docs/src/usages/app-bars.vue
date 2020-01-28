@@ -18,7 +18,9 @@
       </v-btn>
     </v-app-bar>
 
-    <v-responsive height="1000">&nbsp;</v-responsive>
+    <v-responsive height="1000">
+&nbsp;
+    </v-responsive>
   </div>
 </template>
 

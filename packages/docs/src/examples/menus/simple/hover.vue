@@ -1,6 +1,10 @@
 <template>
   <div class="text-center">
-    <v-menu open-on-hover top offset-y>
+    <v-menu
+      open-on-hover
+      top
+      offset-y
+    >
       <template v-slot:activator="{ on }">
         <v-btn
           color="primary"

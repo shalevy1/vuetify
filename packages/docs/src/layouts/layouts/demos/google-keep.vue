@@ -46,7 +46,9 @@
               <v-btn
                 small
                 text
-              >edit</v-btn>
+              >
+                edit
+              </v-btn>
             </v-col>
           </v-row>
           <v-divider
@@ -92,7 +94,9 @@
                   target="_blank"
                   v-on="on"
                 >
-                  <v-icon large>mdi-code-tags</v-icon>
+                  <v-icon large>
+                    mdi-code-tags
+                  </v-icon>
                 </v-btn>
               </template>
               <span>Source</span>
@@ -106,7 +110,9 @@
                   target="_blank"
                   v-on="on"
                 >
-                  <v-icon large>mdi-codepen</v-icon>
+                  <v-icon large>
+                    mdi-codepen
+                  </v-icon>
                 </v-btn>
               </template>
               <span>Codepen</span>

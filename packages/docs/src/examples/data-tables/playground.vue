@@ -1,18 +1,66 @@
 <template>
   <div>
     <v-row justify="space-around">
-      <v-switch v-model="dense" class="mx-2" label="Dense"></v-switch>
-      <v-switch v-model="loading" class="mx-2" label="Loading"></v-switch>
-      <v-switch v-model="disableSort" class="mx-2" label="Disable sort"></v-switch>
-      <v-switch v-model="disablePagination" class="mx-2" label="Disable pagination"></v-switch>
-      <v-switch v-model="disableFiltering" class="mx-2" label="Disable filtering"></v-switch>
-      <v-switch v-model="hideDefaultHeader" class="mx-2" label="Hide default header"></v-switch>
-      <v-switch v-model="hideDefaultFooter" class="mx-2" label="Hide default footer"></v-switch>
-      <v-switch v-model="multiSort" class="mx-2" label="Multi sort"></v-switch>
-      <v-switch v-model="mustSort" class="mx-2" label="Must sort"></v-switch>
-      <v-switch v-model="showExpand" class="mx-2" label="Show expand"></v-switch>
-      <v-switch v-model="showGroupBy" class="mx-2" label="Show group by"></v-switch>
-      <v-switch v-model="showSelect" class="mx-2" label="Show select"></v-switch>
+      <v-switch
+        v-model="dense"
+        class="mx-2"
+        label="Dense"
+      ></v-switch>
+      <v-switch
+        v-model="loading"
+        class="mx-2"
+        label="Loading"
+      ></v-switch>
+      <v-switch
+        v-model="disableSort"
+        class="mx-2"
+        label="Disable sort"
+      ></v-switch>
+      <v-switch
+        v-model="disablePagination"
+        class="mx-2"
+        label="Disable pagination"
+      ></v-switch>
+      <v-switch
+        v-model="disableFiltering"
+        class="mx-2"
+        label="Disable filtering"
+      ></v-switch>
+      <v-switch
+        v-model="hideDefaultHeader"
+        class="mx-2"
+        label="Hide default header"
+      ></v-switch>
+      <v-switch
+        v-model="hideDefaultFooter"
+        class="mx-2"
+        label="Hide default footer"
+      ></v-switch>
+      <v-switch
+        v-model="multiSort"
+        class="mx-2"
+        label="Multi sort"
+      ></v-switch>
+      <v-switch
+        v-model="mustSort"
+        class="mx-2"
+        label="Must sort"
+      ></v-switch>
+      <v-switch
+        v-model="showExpand"
+        class="mx-2"
+        label="Show expand"
+      ></v-switch>
+      <v-switch
+        v-model="showGroupBy"
+        class="mx-2"
+        label="Show group by"
+      ></v-switch>
+      <v-switch
+        v-model="showSelect"
+        class="mx-2"
+        label="Show select"
+      ></v-switch>
       <v-btn-toggle
         v-model="sortBy"
         :multiple="multiSort"
@@ -24,7 +72,9 @@
           :key="header.value"
           text
           :value="header.value"
-        >Sort by {{ header.text }}</v-btn>
+        >
+          Sort by {{ header.text }}
+        </v-btn>
       </v-btn-toggle>
       <v-btn-toggle v-model="groupBy">
         <v-btn
@@ -32,7 +82,9 @@
           :key="header.value"
           text
           :value="header.value"
-        >Group by {{ header.text }}</v-btn>
+        >
+          Group by {{ header.text }}
+        </v-btn>
       </v-btn-toggle>
     </v-row>
 

@@ -52,7 +52,9 @@
           justify="center"
         >
           <v-col class="text-center">
-            <h3 class="headline">{{ name }}</h3>
+            <h3 class="headline">
+              {{ name }}
+            </h3>
             <span class="grey--text text--lighten-1">{{ title }}</span>
           </v-col>
         </v-row>
@@ -149,7 +151,9 @@
         depressed
         @click="isUpdating = true"
       >
-        <v-icon left>mdi-update</v-icon>
+        <v-icon left>
+          mdi-update
+        </v-icon>
         Update Now
       </v-btn>
     </v-card-actions>

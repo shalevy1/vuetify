@@ -1,5 +1,5 @@
 <template>
-  <v-container px-0>
+  <v-container class="px-0">
     <v-card
       id="vuetify-2-0"
       outlined

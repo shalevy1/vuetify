@@ -20,7 +20,9 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-subheader class="mt-4 grey--text text--darken-1">SUBSCRIPTIONS</v-subheader>
+        <v-subheader class="mt-4 grey--text text--darken-1">
+          SUBSCRIPTIONS
+        </v-subheader>
         <v-list>
           <v-list-item
             v-for="item in items2"
@@ -41,15 +43,23 @@
           link
         >
           <v-list-item-action>
-            <v-icon color="grey darken-1">mdi-plus-circle-outline</v-icon>
+            <v-icon color="grey darken-1">
+              mdi-plus-circle-outline
+            </v-icon>
           </v-list-item-action>
-          <v-list-item-title class="grey--text text--darken-1">Browse Channels</v-list-item-title>
+          <v-list-item-title class="grey--text text--darken-1">
+            Browse Channels
+          </v-list-item-title>
         </v-list-item>
         <v-list-item link>
           <v-list-item-action>
-            <v-icon color="grey darken-1">mdi-settings</v-icon>
+            <v-icon color="grey darken-1">
+              mdi-settings
+            </v-icon>
           </v-list-item-action>
-          <v-list-item-title class="grey--text text--darken-1">Manage Subscriptions</v-list-item-title>
+          <v-list-item-title class="grey--text text--darken-1">
+            Manage Subscriptions
+          </v-list-item-title>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -61,7 +71,9 @@
       dense
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-icon class="mx-4">fab fa-youtube</v-icon>
+      <v-icon class="mx-4">
+        fab fa-youtube
+      </v-icon>
       <v-toolbar-title class="mr-12 align-center">
         <span class="title">Youtube</span>
       </v-toolbar-title>
@@ -97,7 +109,9 @@
                   target="_blank"
                   v-on="on"
                 >
-                  <v-icon large>mdi-code-tags</v-icon>
+                  <v-icon large>
+                    mdi-code-tags
+                  </v-icon>
                 </v-btn>
               </template>
               <span>Source</span>
@@ -111,7 +125,9 @@
                   target="_blank"
                   v-on="on"
                 >
-                  <v-icon large>mdi-codepen</v-icon>
+                  <v-icon large>
+                    mdi-codepen
+                  </v-icon>
                 </v-btn>
               </template>
               <span>Codepen</span>

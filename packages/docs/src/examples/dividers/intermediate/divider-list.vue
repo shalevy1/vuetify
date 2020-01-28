@@ -1,8 +1,15 @@
 <template>
   <v-row justify="center">
-    <v-col cols="12" sm="8" md="6">
+    <v-col
+      cols="12"
+      sm="8"
+      md="6"
+    >
       <v-card>
-        <v-toolbar color="orange lighten-1" dark>
+        <v-toolbar
+          color="orange lighten-1"
+          dark
+        >
           <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
           <v-toolbar-title>Message Board</v-toolbar-title>

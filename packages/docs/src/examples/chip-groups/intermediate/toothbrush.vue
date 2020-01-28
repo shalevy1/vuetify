@@ -4,7 +4,9 @@
     max-width="400"
   >
     <v-card-title>
-      <h2 class="display-1">Toothbrush</h2>
+      <h2 class="display-1">
+        Toothbrush
+      </h2>
       <v-spacer></v-spacer>
       <span class="title">$4.99</span>
     </v-card-title>

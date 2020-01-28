@@ -1,5 +1,8 @@
 <template>
-  <v-banner single-line @click:icon="alert">
+  <v-banner
+    single-line
+    @click:icon="alert"
+  >
     <v-icon
       slot="icon"
       color="warning"

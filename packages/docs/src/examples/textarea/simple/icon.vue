@@ -1,7 +1,10 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <v-textarea
           class="mx-2"
           label="prepend-icon"
@@ -9,7 +12,10 @@
           prepend-icon="comment"
         ></v-textarea>
       </v-col>
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <v-textarea
           append-icon="comment"
           class="mx-2"
@@ -17,7 +23,10 @@
           rows="1"
         ></v-textarea>
       </v-col>
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <v-textarea
           prepend-inner-icon="comment"
           class="mx-2"
@@ -25,7 +34,10 @@
           rows="1"
         ></v-textarea>
       </v-col>
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <v-textarea
           append-outer-icon="comment"
           class="mx-2"

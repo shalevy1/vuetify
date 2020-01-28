@@ -1,5 +1,8 @@
 <template>
-  <v-row justify="center" align="center">
+  <v-row
+    justify="center"
+    align="center"
+  >
     <div class="text-center ma-12">
       <v-progress-circular
         :indeterminate="indeterminate"
@@ -8,11 +11,17 @@
         :value="value"
         :width="width"
         color="light-blue"
-      >{{ value }}</v-progress-circular>
+      >
+        {{ value }}
+      </v-progress-circular>
     </div>
 
     <v-row>
-      <v-col cols="12" md="3" lg="2">
+      <v-col
+        cols="12"
+        md="3"
+        lg="2"
+      >
         <v-text-field
           v-model="rotate"
           class="mx-4"
@@ -25,7 +34,11 @@
           @keydown="false"
         ></v-text-field>
       </v-col>
-      <v-col cols="12" md="3" lg="2">
+      <v-col
+        cols="12"
+        md="3"
+        lg="2"
+      >
         <v-text-field
           v-model="size"
           class="mx-4"
@@ -38,7 +51,11 @@
           @keydown="false"
         ></v-text-field>
       </v-col>
-      <v-col cols="12" md="3" lg="2">
+      <v-col
+        cols="12"
+        md="3"
+        lg="2"
+      >
         <v-text-field
           v-model="value"
           class="mx-4"
@@ -51,7 +68,11 @@
           @keydown="false"
         ></v-text-field>
       </v-col>
-      <v-col cols="12" md="3" lg="2">
+      <v-col
+        cols="12"
+        md="3"
+        lg="2"
+      >
         <v-text-field
           v-model="width"
           class="mx-4"
@@ -64,8 +85,16 @@
           @keydown="false"
         ></v-text-field>
       </v-col>
-      <v-col cols="12" md="3" lg="2">
-        <v-switch v-model="indeterminate" label="Toggle indeterminate" class="mx-4"></v-switch>
+      <v-col
+        cols="12"
+        md="3"
+        lg="2"
+      >
+        <v-switch
+          v-model="indeterminate"
+          label="Toggle indeterminate"
+          class="mx-4"
+        ></v-switch>
       </v-col>
     </v-row>
   </v-row>

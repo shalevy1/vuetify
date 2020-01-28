@@ -1,6 +1,12 @@
 <template>
-  <v-card flat tile>
-    <v-window v-model="onboarding" vertical>
+  <v-card
+    flat
+    tile
+  >
+    <v-window
+      v-model="onboarding"
+      vertical
+    >
       <v-window-item
         v-for="n in length"
         :key="`card-${n}`"
@@ -15,7 +21,12 @@
             justify="center"
             tag="v-card-text"
           >
-            <h1 style="font-size: 5rem;" class="white--text">Slide {{ n }}</h1>
+            <h1
+              style="font-size: 5rem;"
+              class="white--text"
+            >
+              Slide {{ n }}
+            </h1>
           </v-row>
         </v-card>
       </v-window-item>

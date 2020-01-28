@@ -1,8 +1,15 @@
 <template>
   <v-row>
-    <v-col cols="12" sm="6" offset-sm="3">
+    <v-col
+      cols="12"
+      sm="6"
+      offset-sm="3"
+    >
       <v-card>
-        <v-toolbar color="indigo" dark>
+        <v-toolbar
+          color="indigo"
+          dark
+        >
           <v-app-bar-nav-icon></v-app-bar-nav-icon>
           <v-toolbar-title>Manage</v-toolbar-title>
           <v-spacer></v-spacer>
@@ -10,9 +17,16 @@
             <v-icon>mdi-dots-vertical</v-icon>
           </v-btn>
         </v-toolbar>
-        <v-list class="indigo darken-2" dark>
+        <v-list
+          class="indigo darken-2"
+          dark
+        >
           <template v-for="(item, index) in items">
-            <v-list-item v-if="item.action" :key="item.title" @click="">
+            <v-list-item
+              v-if="item.action"
+              :key="item.title"
+              @click=""
+            >
               <v-list-item-action>
                 <v-icon>{{ item.action }}</v-icon>
               </v-list-item-action>
@@ -20,8 +34,17 @@
                 <v-list-item-title>{{ item.title }}</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
-            <v-divider v-else-if="item.divider" :key="index"></v-divider>
-            <v-subheader v-else-if="item.header" :key="item.header" class="grey--text text--lighten-4">{{ item.header }}</v-subheader>
+            <v-divider
+              v-else-if="item.divider"
+              :key="index"
+            ></v-divider>
+            <v-subheader
+              v-else-if="item.header"
+              :key="item.header"
+              class="grey--text text--lighten-4"
+            >
+              {{ item.header }}
+            </v-subheader>
           </template>
         </v-list>
       </v-card>

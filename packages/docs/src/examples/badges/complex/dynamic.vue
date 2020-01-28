@@ -25,7 +25,9 @@
         color="green"
         overlap
       >
-        <v-icon large>mdi-email</v-icon>
+        <v-icon large>
+          mdi-email
+        </v-icon>
       </v-badge>
     </v-row>
   </v-container>

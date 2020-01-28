@@ -12,7 +12,9 @@
       <base-text
         class="mx-auto"
         max-width="650"
-      >Vuetify.Home.whyVuetifyText</base-text>
+      >
+        Vuetify.Home.whyVuetifyText
+      </base-text>
 
       <v-container class="pa-0 mb-6">
         <base-comparison />
@@ -94,7 +96,7 @@
           {
             key: 'components',
             src: 'feature2.png',
-            to: `components/api-explorer`,
+            to: 'components/api-explorer',
           },
           {
             href: 'https://github.com/vuetifyjs/vue-cli-plugin-vuetify-cli',

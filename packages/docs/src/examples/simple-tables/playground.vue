@@ -8,12 +8,19 @@
       <template v-slot:default>
         <thead>
           <tr>
-            <th class="text-left">Name</th>
-            <th class="text-left">Calories</th>
+            <th class="text-left">
+              Name
+            </th>
+            <th class="text-left">
+              Calories
+            </th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="item in desserts" :key="item.name">
+          <tr
+            v-for="item in desserts"
+            :key="item.name"
+          >
             <td>{{ item.name }}</td>
             <td>{{ item.calories }}</td>
           </tr>
@@ -22,7 +29,10 @@
     </v-simple-table>
 
     <v-row>
-      <v-col cols="12" md="6">
+      <v-col
+        cols="12"
+        md="6"
+      >
         <v-text-field
           v-model="height"
           class="mx-4"
@@ -35,11 +45,25 @@
           @keydown="false"
         ></v-text-field>
       </v-col>
-      <v-col cols="6" md="3">
-        <v-switch v-model="dense" label="Toggle dense" class="mx-4"></v-switch>
+      <v-col
+        cols="6"
+        md="3"
+      >
+        <v-switch
+          v-model="dense"
+          label="Toggle dense"
+          class="mx-4"
+        ></v-switch>
       </v-col>
-      <v-col cols="6" md="3">
-        <v-switch v-model="fixedHeader" label="Toggle fixed-header" class="mx-4"></v-switch>
+      <v-col
+        cols="6"
+        md="3"
+      >
+        <v-switch
+          v-model="fixedHeader"
+          label="Toggle fixed-header"
+          class="mx-4"
+        ></v-switch>
       </v-col>
     </v-row>
   </div>

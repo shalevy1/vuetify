@@ -1,8 +1,15 @@
 <template>
   <v-row>
-    <v-col cols="12" sm="6" offset-sm="3">
+    <v-col
+      cols="12"
+      sm="6"
+      offset-sm="3"
+    >
       <v-card>
-        <v-toolbar color="purple" dark>
+        <v-toolbar
+          color="purple"
+          dark
+        >
           <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
           <v-toolbar-title>Settings</v-toolbar-title>
@@ -14,7 +21,10 @@
           </v-btn>
         </v-toolbar>
 
-        <v-list three-line subheader>
+        <v-list
+          three-line
+          subheader
+        >
           <v-subheader>User Controls</v-subheader>
 
           <v-list-item>

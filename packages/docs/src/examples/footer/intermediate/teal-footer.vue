@@ -20,7 +20,9 @@
           dark
           icon
         >
-          <v-icon size="24px">{{ icon }}</v-icon>
+          <v-icon size="24px">
+            {{ icon }}
+          </v-icon>
         </v-btn>
       </v-card-title>
 

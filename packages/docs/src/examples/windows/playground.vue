@@ -1,10 +1,26 @@
 <template>
   <v-row align="center">
     <v-row justify="space-around">
-      <v-switch v-model="autorun" class="ma-2" label="Automatic switching"></v-switch>
-      <v-switch v-model="showArrows" class="ma-2" label="Show arrows"></v-switch>
-      <v-switch v-model="vertical" class="ma-2" label="Vertical"></v-switch>
-      <v-switch v-model="reverse" class="ma-2" label="Reverse"></v-switch>
+      <v-switch
+        v-model="autorun"
+        class="ma-2"
+        label="Automatic switching"
+      ></v-switch>
+      <v-switch
+        v-model="showArrows"
+        class="ma-2"
+        label="Show arrows"
+      ></v-switch>
+      <v-switch
+        v-model="vertical"
+        class="ma-2"
+        label="Vertical"
+      ></v-switch>
+      <v-switch
+        v-model="reverse"
+        class="ma-2"
+        label="Reverse"
+      ></v-switch>
     </v-row>
 
     <v-window
@@ -20,8 +36,14 @@
       >
         <v-card flat>
           <v-card-text>
-            <v-row class="mb-4" align="center">
-              <v-avatar color="grey" class="mr-4"></v-avatar>
+            <v-row
+              class="mb-4"
+              align="center"
+            >
+              <v-avatar
+                color="grey"
+                class="mr-4"
+              ></v-avatar>
               <strong class="title">Title {{ n }}</strong>
               <v-spacer></v-spacer>
               <v-btn icon>

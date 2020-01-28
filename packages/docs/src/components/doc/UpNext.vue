@@ -1,6 +1,8 @@
 <template>
   <section id="up-next">
-    <base-heading id="up-next">Generic.Pages.upNext</base-heading>
+    <base-heading id="up-next">
+      Generic.Pages.upNext
+    </base-heading>
 
     <base-markdown>Generic.Pages.upNextText</base-markdown>
 

@@ -8,21 +8,24 @@
         width="342"
         v-bind="attrs"
       >
-
         <v-sheet
           v-if="internalAttrs.image"
           class="d-flex align-center justify-center"
           color="grey lighten-3"
           height="200"
         >
-          <v-icon size="64">mdi-image</v-icon>
+          <v-icon size="64">
+            mdi-image
+          </v-icon>
         </v-sheet>
 
         <v-card-title>
           Card title
         </v-card-title>
 
-        <v-card-subtitle v-if="internalAttrs.subtitle">Secondary text</v-card-subtitle>
+        <v-card-subtitle v-if="internalAttrs.subtitle">
+          Secondary text
+        </v-card-subtitle>
 
         <v-card-text v-if="internalAttrs.supportingText">
           Greyhound divisively hello coldly wonderfully marginally far upon excluding.

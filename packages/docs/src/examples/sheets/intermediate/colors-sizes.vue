@@ -48,7 +48,6 @@
             </v-sheet>
           </v-col>
           <v-col cols="12">
-
             <v-sheet
               class="d-flex"
               color="red lighten-3"

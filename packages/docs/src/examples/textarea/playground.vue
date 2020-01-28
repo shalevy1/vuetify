@@ -19,7 +19,10 @@
         ></v-text-field>
       </v-col>
 
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <v-text-field
           v-model="rowHeight"
           :disabled="!autoGrow"
@@ -45,7 +48,10 @@
 
       <v-col cols="12"></v-col>
 
-      <v-col cols="12" md="6">
+      <v-col
+        cols="12"
+        md="6"
+      >
         <v-switch
           v-model="autoGrow"
           class="ma-1"

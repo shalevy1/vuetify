@@ -20,19 +20,50 @@
 
     <v-row>
       <v-col cols="12">
-        <v-row class="fill-height" align="center">
-          <v-subheader class="pl-0">Type</v-subheader>
-          <v-btn-toggle v-model="type" mandatory>
-            <v-btn small text value="bar">bar</v-btn>
-            <v-btn small text value="trend">trend</v-btn>
+        <v-row
+          class="fill-height"
+          align="center"
+        >
+          <v-subheader class="pl-0">
+            Type
+          </v-subheader>
+          <v-btn-toggle
+            v-model="type"
+            mandatory
+          >
+            <v-btn
+              small
+              text
+              value="bar"
+            >
+              bar
+            </v-btn>
+            <v-btn
+              small
+              text
+              value="trend"
+            >
+              trend
+            </v-btn>
           </v-btn-toggle>
         </v-row>
       </v-col>
 
-      <v-col cols="12" md="6">
-        <v-row class="fill-height" align="center">
-          <v-subheader class="pl-0">Gradient</v-subheader>
-          <v-item-group v-model="gradient" mandatory>
+      <v-col
+        cols="12"
+        md="6"
+      >
+        <v-row
+          class="fill-height"
+          align="center"
+        >
+          <v-subheader class="pl-0">
+            Gradient
+          </v-subheader>
+          <v-item-group
+            v-model="gradient"
+            mandatory
+          >
             <v-row>
               <v-item
                 v-for="(gradient, i) in gradients"
@@ -59,14 +90,49 @@
         </v-row>
       </v-col>
 
-      <v-col cols="12" md="6">
-        <v-row class="fill-height" align="center">
-          <v-subheader class="pl-0">Gradient direction</v-subheader>
-          <v-btn-toggle v-model="gradientDirection" mandatory>
-            <v-btn small text value="top">top</v-btn>
-            <v-btn small text value="right">right</v-btn>
-            <v-btn small text value="left">left</v-btn>
-            <v-btn small text value="bottom">bottom</v-btn>
+      <v-col
+        cols="12"
+        md="6"
+      >
+        <v-row
+          class="fill-height"
+          align="center"
+        >
+          <v-subheader class="pl-0">
+            Gradient direction
+          </v-subheader>
+          <v-btn-toggle
+            v-model="gradientDirection"
+            mandatory
+          >
+            <v-btn
+              small
+              text
+              value="top"
+            >
+              top
+            </v-btn>
+            <v-btn
+              small
+              text
+              value="right"
+            >
+              right
+            </v-btn>
+            <v-btn
+              small
+              text
+              value="left"
+            >
+              left
+            </v-btn>
+            <v-btn
+              small
+              text
+              value="bottom"
+            >
+              bottom
+            </v-btn>
           </v-btn-toggle>
         </v-row>
       </v-col>
@@ -104,25 +170,66 @@
       </v-col>
 
       <v-col cols="6">
-        <v-row class="fill-height" align="center">
-          <v-subheader class="pl-0">Linecap</v-subheader>
-          <v-btn-toggle v-model="lineCap" mandatory :disabled="type !== 'trend'">
-            <v-btn small text value="butt">butt</v-btn>
-            <v-btn small text value="round">round</v-btn>
-            <v-btn small text value="square">square</v-btn>
+        <v-row
+          class="fill-height"
+          align="center"
+        >
+          <v-subheader class="pl-0">
+            Linecap
+          </v-subheader>
+          <v-btn-toggle
+            v-model="lineCap"
+            mandatory
+            :disabled="type !== 'trend'"
+          >
+            <v-btn
+              small
+              text
+              value="butt"
+            >
+              butt
+            </v-btn>
+            <v-btn
+              small
+              text
+              value="round"
+            >
+              round
+            </v-btn>
+            <v-btn
+              small
+              text
+              value="square"
+            >
+              square
+            </v-btn>
           </v-btn-toggle>
         </v-row>
       </v-col>
 
       <v-col cols="6">
         <v-row justify="space-around">
-          <v-switch v-model="showLabels" label="Show labels"></v-switch>
-          <v-switch v-model="fill" label="Fill" :disabled="type !== 'trend'"></v-switch>
-          <v-switch v-model="autoLineWidth" label="Auto-line-width" :disabled="type !== 'bar'"></v-switch>
+          <v-switch
+            v-model="showLabels"
+            label="Show labels"
+          ></v-switch>
+          <v-switch
+            v-model="fill"
+            label="Fill"
+            :disabled="type !== 'trend'"
+          ></v-switch>
+          <v-switch
+            v-model="autoLineWidth"
+            label="Auto-line-width"
+            :disabled="type !== 'bar'"
+          ></v-switch>
         </v-row>
       </v-col>
 
-      <v-col v-if="showLabels" cols="12">
+      <v-col
+        v-if="showLabels"
+        cols="12"
+      >
         <v-slider
           v-model="labelSize"
           label="Label size"

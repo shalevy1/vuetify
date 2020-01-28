@@ -1,7 +1,13 @@
 <template>
   <v-row justify="space-between">
-    <v-col cols="12" sm="6" class="my-4">
-      <div class="subheading">Defined by array</div>
+    <v-col
+      cols="12"
+      sm="6"
+      class="my-4"
+    >
+      <div class="subheading">
+        Defined by array
+      </div>
       <v-date-picker
         v-model="date1"
         :events="arrayEvents"
@@ -9,8 +15,14 @@
         type="month"
       ></v-date-picker>
     </v-col>
-    <v-col cols="12" sm="6" class="my-4">
-      <div class="subheading">Defined by function</div>
+    <v-col
+      cols="12"
+      sm="6"
+      class="my-4"
+    >
+      <div class="subheading">
+        Defined by function
+      </div>
       <v-date-picker
         v-model="date2"
         :events="functionEvents"

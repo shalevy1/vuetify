@@ -19,26 +19,39 @@
           News
         </v-btn>
 
-        <v-divider :inset="inset" vertical></v-divider>
+        <v-divider
+          :inset="inset"
+          vertical
+        ></v-divider>
 
         <v-btn text>
           Blog
         </v-btn>
 
-        <v-divider :inset="inset" vertical></v-divider>
+        <v-divider
+          :inset="inset"
+          vertical
+        ></v-divider>
 
         <v-btn text>
           Music
         </v-btn>
 
-        <v-divider :inset="inset" vertical></v-divider>
+        <v-divider
+          :inset="inset"
+          vertical
+        ></v-divider>
       </v-toolbar-items>
 
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
     </v-toolbar>
 
     <v-row v-else>
-      <v-col cols="12" sm="6" offset-sm="3">
+      <v-col
+        cols="12"
+        sm="6"
+        offset-sm="3"
+      >
         <v-card>
           <v-list>
             <v-list-item @click="">

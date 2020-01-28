@@ -50,7 +50,9 @@
             <v-btn
               color="primary"
               @click="loading = true"
-            >Start loading</v-btn>
+            >
+              Start loading
+            </v-btn>
           </div>
         </v-scale-transition>
       </v-row>

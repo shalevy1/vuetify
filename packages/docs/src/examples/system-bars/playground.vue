@@ -1,7 +1,14 @@
 <template>
-  <v-row justify="center" align="center">
+  <v-row
+    justify="center"
+    align="center"
+  >
     <v-container fluid>
-      <v-card img="https://cdn.vuetifyjs.com/images/home/vuetify_layout1.svg" height="200px" class="mb-6">
+      <v-card
+        img="https://cdn.vuetifyjs.com/images/home/vuetify_layout1.svg"
+        height="200px"
+        class="mb-6"
+      >
         <v-system-bar
           color="orange"
           :height="height"
@@ -34,10 +41,18 @@
         ></v-text-field>
       </v-col>
       <v-col cols="4">
-        <v-switch v-model="lightsOut" label="Toggle lights-out" class="mx-4"></v-switch>
+        <v-switch
+          v-model="lightsOut"
+          label="Toggle lights-out"
+          class="mx-4"
+        ></v-switch>
       </v-col>
       <v-col cols="4">
-        <v-switch v-model="window" label="Toggle window" class="mx-4"></v-switch>
+        <v-switch
+          v-model="window"
+          label="Toggle window"
+          class="mx-4"
+        ></v-switch>
       </v-col>
     </v-row>
   </v-row>

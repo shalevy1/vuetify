@@ -24,10 +24,9 @@
 
       <v-col
         :key="i"
-        class="d-flex shrink"
+        class="d-flex shrink justify"
         cols="6"
         md="auto"
-        justify="center"
       >
         <supporters-sponsor
           :large="$attrs.large"

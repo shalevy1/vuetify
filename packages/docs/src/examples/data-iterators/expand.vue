@@ -1,6 +1,9 @@
 <template>
   <v-container fluid>
-    <v-switch v-model="expand" label="Expand Single Item"></v-switch>
+    <v-switch
+      v-model="expand"
+      label="Expand Single Item"
+    ></v-switch>
     <v-data-iterator
       :items="items"
       item-key="name"
@@ -29,34 +32,51 @@
                 @change="(v) => expand(item, v)"
               ></v-switch>
               <v-divider></v-divider>
-              <v-list v-if="isExpanded(item)" dense>
+              <v-list
+                v-if="isExpanded(item)"
+                dense
+              >
                 <v-list-item>
                   <v-list-item-content>Calories:</v-list-item-content>
-                  <v-list-item-content class="align-end">{{ item.calories }}</v-list-item-content>
+                  <v-list-item-content class="align-end">
+                    {{ item.calories }}
+                  </v-list-item-content>
                 </v-list-item>
                 <v-list-item>
                   <v-list-item-content>Fat:</v-list-item-content>
-                  <v-list-item-content class="align-end">{{ item.fat }}</v-list-item-content>
+                  <v-list-item-content class="align-end">
+                    {{ item.fat }}
+                  </v-list-item-content>
                 </v-list-item>
                 <v-list-item>
                   <v-list-item-content>Carbs:</v-list-item-content>
-                  <v-list-item-content class="align-end">{{ item.carbs }}</v-list-item-content>
+                  <v-list-item-content class="align-end">
+                    {{ item.carbs }}
+                  </v-list-item-content>
                 </v-list-item>
                 <v-list-item>
                   <v-list-item-content>Protein:</v-list-item-content>
-                  <v-list-item-content class="align-end">{{ item.protein }}</v-list-item-content>
+                  <v-list-item-content class="align-end">
+                    {{ item.protein }}
+                  </v-list-item-content>
                 </v-list-item>
                 <v-list-item>
                   <v-list-item-content>Sodium:</v-list-item-content>
-                  <v-list-item-content class="align-end">{{ item.sodium }}</v-list-item-content>
+                  <v-list-item-content class="align-end">
+                    {{ item.sodium }}
+                  </v-list-item-content>
                 </v-list-item>
                 <v-list-item>
                   <v-list-item-content>Calcium:</v-list-item-content>
-                  <v-list-item-content class="align-end">{{ item.calcium }}</v-list-item-content>
+                  <v-list-item-content class="align-end">
+                    {{ item.calcium }}
+                  </v-list-item-content>
                 </v-list-item>
                 <v-list-item>
                   <v-list-item-content>Iron:</v-list-item-content>
-                  <v-list-item-content class="align-end">{{ item.iron }}</v-list-item-content>
+                  <v-list-item-content class="align-end">
+                    {{ item.iron }}
+                  </v-list-item-content>
                 </v-list-item>
               </v-list>
             </v-card>

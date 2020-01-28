@@ -1,5 +1,8 @@
 <template>
-  <v-card flat color="transparent">
+  <v-card
+    flat
+    color="transparent"
+  >
     <v-subheader>Min and max default slider</v-subheader>
 
     <v-card-text>
