@@ -1,22 +1,20 @@
 <template>
   <v-container
-    pa-0
-    grid-list-xl
+    class="pa-0"
     fluid
   >
-    <v-layout wrap>
-      <v-flex
+    <v-row>
+      <v-col
         v-for="(item, i) in items"
         :key="i"
-        xs12
-        sm6
-        md4
-        d-flex
-        child-flex
+        class="d-flex child-flex"
+        cols="12"
+        sm="6"
+        md="4"
       >
         <categories-item :value="item" />
-      </v-flex>
-    </v-layout>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 

@@ -22,7 +22,7 @@
         disable-pagination
         hide-default-footer
       >
-        <template v-slot:item="{ item: gotcha, index }">
+        <template v-slot:item="{ item: gotcha }">
           <section
             :id="gotcha.id"
             class="mb-12"
@@ -52,7 +52,9 @@
                 >
                   Open code snippet
 
-                  <v-icon right>mdi-code-tags</v-icon>
+                  <v-icon right>
+                    mdi-code-tags
+                  </v-icon>
                 </v-btn>
 
                 <div class="mt-3 mb-n4">

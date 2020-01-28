@@ -1,21 +1,19 @@
 <template>
   <v-container
+    class="pa-0"
     fluid
-    grid-list-xl
-    pa-0
   >
-    <v-layout
-      align-center
-      fill-height
-      justify-center
-      wrap
+    <v-row
+      class="fill-height"
+      align="center"
+      justify="center"
     >
-      <v-flex
+      <v-col
         v-for="(layout, i) in layouts"
         :key="i"
-        xs12
-        sm6
-        md4
+        cols="12"
+        sm="6"
+        md="4"
       >
         <v-card>
           <v-img
@@ -64,8 +62,8 @@
             </v-fade-transition>
           </v-img>
         </v-card>
-      </v-flex>
-    </v-layout>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
